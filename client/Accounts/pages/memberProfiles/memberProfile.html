@@ -1,0 +1,21 @@
+<template name="MemberProfile">
+<article class="recipe  in-menu">
+    <h3>{{name}}</h3>
+
+{{#if editMorde}}
+
+    {{> quickForm collection="MemberProfiles" id=updateMemberProfileId type="update" doc=this autosave=true}}
+{{else}}
+
+
+        <p>{{desc}}</p>
+
+        <a href="/recipe/{{_id}}">View Details</a>
+
+{{/if}}
+
+    <i class="fa fa-pencil"></i>
+    <i class="fa fa-trash"></i>
+</article>
+
+</template>

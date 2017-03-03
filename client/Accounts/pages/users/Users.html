@@ -1,0 +1,63 @@
+<template name="Users">
+    {{#if isInRole 'admin'}}
+        <h1 class="page-title">Users Page</h1>
+    
+    <!--<table>-->
+        <!--<tr>-->
+            <!--<th>Id</th>-->
+            <!--<th>Email</th>-->
+            <!--<th>First Name</th>-->
+            <!--<th>Created At</th>-->
+            <!--<th>Admin</th>-->
+        <!--</tr>-->
+
+        <!--{{#each users}}-->
+            <!--<tr>-->
+
+                <!--<td>{{_id}}</td>-->
+                <!--<td>{{userEmail}}</td>-->
+                <!--<td><a href="/admin/editUser/{{_id}}">{{profile.firstName}}</a></td>-->
+                <!--<td>{{createdAt}}</td>-->
+                <!--<td>{{isAdmin}}</td>-->
+
+            <!--</tr>-->
+
+
+
+        <!--{{/each}}-->
+
+
+    <!--</table>-->
+
+
+        <div class="navbar navbar-default" role="navigation">
+            <div class="navbar-header">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="/">Accounts Admin</a>
+                </div>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    {{> loginButtons }}
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            {{> adminTemplate}}
+        </div>
+        
+
+    {{else}}
+        <h1>Not Authorized </h1>
+    {{/if}}
+
+</template>
+
+<template name="adminTemplate">
+
+
+        {{> accountsAdmin}}
+
+</template>

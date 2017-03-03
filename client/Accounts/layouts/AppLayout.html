@@ -1,0 +1,18 @@
+<template name="AppLayout">
+    {{#if  currentUser }}
+
+        {{> Header}}
+        {{#if isInRole 'admin'}}
+            {{> AppNav}}
+        {{/if}}
+        <main class="app-layout">
+            {{> Template.dynamic template=main}}
+        </main>
+
+        {{else}}
+        No user logged in
+        {{> LoginModal}}
+
+    {{/if}}
+
+</template>

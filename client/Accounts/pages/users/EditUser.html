@@ -1,0 +1,22 @@
+<template name ="EditUser">
+
+
+
+        <form id="detailsForm" method="post">
+
+            <label>{{data._id}}</label> <br>
+            <label> </label> <br>
+
+            <label> Description</label>
+            <textarea  id="" placeholder="Description" ></textarea>
+
+
+            <label>First Name</label>
+            <input type="text" id=""  placeholder="{{data.profile.firstName}}" value="{{data.profile.firstName}}">
+
+            <button type="submit">Update</button>
+
+
+        </form>
+
+</template>

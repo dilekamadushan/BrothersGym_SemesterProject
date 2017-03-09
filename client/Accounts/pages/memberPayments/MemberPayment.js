@@ -1,44 +1,41 @@
-Template.MemberProfile.onCreated(function(){
+Template.MemberPayment.onCreated(function(){
     this.editMode = new ReactiveVar (false );
     // this.editMode = new ReactiveVar ( );
-   // this.editMode.set(false);
+    // this.editMode.set(false);
 
 });
 
 
 
-Template.MemberProfile.helpers({
-    updateMemberProfileId:function (){
+Template.MemberPayment.helpers({
+    updateMemberPaymentId:function (){
         return this._id;
     },
 
     editMorde: function(){
         return Template.instance().editMode.get();
-    },
-    IsUserAdmin: function(){
-
-        return Roles.userIsInRole(Meteor.userId(),'admin');
     }
 
 });
 
 
 
-Template.MemberProfile.events({
+Template.MemberPayment.events({
     'click .toggle-menu': function(){
         console.log('click');
-        Meteor.call('toggleMenuItemMemberProfile', this._id, this.inMenu);
+        Meteor.call('toggleMenuItemMemberPayment', this._id, this.inMenu);
     },
     'click .fa-trash' :function() {
-        Meteor.call('deleteMemberProfile', this._id);
+        if(confirm("delete")){
+            Meteor.call('deleteMemberPayment', this._id);
+        }
+
 
     },
-
     'click .fa-pencil' :function(event, template) {
-        console.log("clicked");
         //Session.set('editMode', !Session.get('editMode'));
-        template.editMode.set( !template.editMode.get());
-        //Session.set('newMemberProfile',false);
-    }
 
-})
+        template.editMode.set( !template.editMode.get());
+        Session.set('newMemberPayment',false);
+    }
+});

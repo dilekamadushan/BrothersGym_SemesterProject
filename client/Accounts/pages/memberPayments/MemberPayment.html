@@ -1,0 +1,30 @@
+<template name="MemberPayment">
+    <article class="recipe {{#if inMenu}} in-menu{{/if}}">
+        <h3>{{name}}</h3>
+
+        {{#if editMorde}}
+
+            {{> quickForm collection="MemberPayments" id=updateMemberPaymentId type="update" doc=this autosave=true}}
+        {{else}}
+
+
+
+            .<p>{{desc}}</p>
+
+            <a href="/recipe/{{_id}}">View Details</a>
+
+            {{#if inMenu}}
+                <button class="btn-deny toggle-menu">Remove From Menu</button>
+            {{else}}
+                <button class="btn-primary toggle-menu">Add To Menu</button>
+            {{/if}}
+        {{/if}}
+
+
+
+        <i class="fa fa-pencil"></i>
+        <i class="fa fa-trash"></i>
+
+
+    </article>
+</template>

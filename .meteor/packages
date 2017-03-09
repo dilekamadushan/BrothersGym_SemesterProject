@@ -48,3 +48,7 @@ iron:router
 session
 mrt:external-file-loader
 apinf:accounts-admin-ui
+natestrauser:select2
+aldeed:autoform-select2
+matb33:collection-hooks
+momentjs:moment

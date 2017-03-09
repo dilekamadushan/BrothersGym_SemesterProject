@@ -21,28 +21,17 @@ RecipeSchema = new SimpleSchema({
         type: String,
         label: "Description"
     },
-    ingredients:{
-        type: [IngredientSchema],
-        autoValue: function () {
-            return Ingredients.find({});
-        },
+        occupations: {
+            type: String,
+            optional:true,
+            label: 'Occupation',
+            autoform:{
+                type:"select2",
+                placeholder: 'Comma spaced list of occupations',
+            }
+        }
 
-         defaultValue: function () {
-             return Ingredients.find({});
-        },
-        // autoform:{
-        //
-        // }
-    },
-    userId:{
-        type:String,
-        // autoValue: function () {
-        //     return this.userId;
-        // },
-        defaultValue:function () {
-            return Meteor.userId();
-        },
-    },
+,
     inMenu:{
         type: Boolean,
         defaultValue: false,
@@ -90,3 +79,58 @@ Meteor.methods({
 Recipes.attachSchema(RecipeSchema);
 
 
+// Schemas = {};
+
+// Template.registerHelper("Schemas", Schemas);
+//
+// Schemas.PersonWithContacts = new SimpleSchema({
+//     firstName: {
+//         type: String,
+//         index: 1,
+//         unique: true
+//     },
+//     lastName: {
+//         type: String,
+//         optional: true
+//     },
+//     age: {
+//         type: Number,
+//         optional: true
+//     },
+//     contacts: {
+//         type: Array,
+//         optional: true
+//     },
+//     'contacts.$': {
+//         type: Object
+//     },
+//     'contacts.$.name': {
+//         type: String
+//     },
+//     'contacts.$.phone': {
+//         type: String
+//     }
+// });
+
+// var Collections = {};
+//
+// Template.registerHelper("Collections", Collections);
+//
+// PeopleWithContacts = Collections.PeopleWithContacts = new Mongo.Collection("PeopleWithContacts");
+// PeopleWithContacts.attachSchema(Schemas.PersonWithContacts);
+//
+// Meteor.publish(null, function () {
+//     return PeopleWithContacts.find();
+// });
+//
+// PeopleWithContacts.allow({
+//     update: function () {
+//         return true;
+//     }
+// });
+//
+// Template.updateArrayItem.helpers({
+//     exampleDoc: function () {
+//         return PeopleWithContacts.findOne({firstName: 'Winston'});
+//     }
+// });Winston

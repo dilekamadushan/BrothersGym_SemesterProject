@@ -8,11 +8,15 @@ Template.MemberProfiles.onCreated(function () {
 Template.MemberProfiles.helpers({
     memberProfiles: ()=>{
         return MemberProfiles.find({});
+    },
+    IsUserAdmin: function(){
+
+        return Roles.userIsInRole(Meteor.userId(),'admin');
     }
 });
 
 Template.MemberProfiles.events({
-    'click.new-recipe': () => {
-        Session.set('newRecipe', true);
+    'click .new-recipe': () => {
+        Session.set('newMemberProfile', true);
     }
 })

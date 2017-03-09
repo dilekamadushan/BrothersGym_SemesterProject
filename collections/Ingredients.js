@@ -1,5 +1,5 @@
-Ingredients=new Mongo.Collection('ingredients');
-Ingredients.allow({
+Occupations=new Mongo.Collection('occupations');
+Occupations.allow({
     insert: function (userId, doc) {
         return !!userId;
     },
@@ -7,14 +7,12 @@ Ingredients.allow({
         return !!userId;
     }
 });
-IngredientSchema = new SimpleSchema({
+OccupationSchema = new SimpleSchema({
     name:{
         type: String
 
     },
-    amount:{
-        type: String
-    },
+
     author: {
         type: String,
         label: "Author",
@@ -27,20 +25,22 @@ IngredientSchema = new SimpleSchema({
     }
 });
 
-Meteor.methods({
 
-    toggleMenuItemIngredient: function(id, currentState){
-        Ingredients.update(id,{
-            $set:{
-                inMenu: !currentState
-            }
-        });
+Occupations.attachSchema(OccupationSchema);
+
+Clients = new Mongo.Collection('clients');
+Clients.allow({
+    insert: function (userId, doc) {
+        return !!userId;
     },
-    deleteIngredient: function(id){
-        Ingredients.remove(id);
+    update: function(userId,doc){
+        return !!userId;
     }
 });
-
-
-
-Ingredients.attachSchema(IngredientSchema);
+Clients.attachSchema(new SimpleSchema({
+    clientName: {
+        type: String,
+        label: "Mandator Name",
+        max: 200
+    }
+}));

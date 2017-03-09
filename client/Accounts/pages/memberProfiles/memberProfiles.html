@@ -1,6 +1,17 @@
 <template name="MemberProfiles">
 
-        <button class="new-recipe">Member Profiles</button>
+
+
+    {{#if $.Session.get 'newMemberProfile'}}
+        {{#if IsUserAdmin}}
+
+        {{> NewMemberProfile}}
+            {{/if}}
+    {{else}}
+        {{#if IsUserAdmin}}
+        <button class="new-recipe">New MemberProfile</button>
+        {{/if}}
+    {{/if}}
 
 
 

@@ -4,6 +4,8 @@ Template.NewIngredient.onCreated(function () {
     self.autorun(function () {
         self.subscribe('ingredients');
         self.subscribe('recipes');
+        self.subscribe('occupations');
+        self.subscribe('clients');
     });
 });
 
@@ -13,5 +15,14 @@ Template.NewIngredient.helpers({
     },
     recipes: ()=>{
         return Recipes.find();
+    },
+    listOccupations: function () {
+        return Occupations.find({}).fetch();
+    },
+    myoptions: function() {
+        return Clients.find({}, {fields: {clientName: 1}}).map(function (c){
+            return {label: c.clientName, value: c._id};;
+
+        })
     }
 });

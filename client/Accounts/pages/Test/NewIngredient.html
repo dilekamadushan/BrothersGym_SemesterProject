@@ -1,17 +1,22 @@
 
 <template name="NewIngredient">
-{{#each ingredients}}
-    There is ingreduents<br>
-{{/each}}
-    {{#each recipes}}
-        There is a recpe<br>
-    {{/each}}
+
+    {{#autoForm collection="Clients" id="insertClientForm" type="insert"}}
+        {{> afFieldInput name="clientName" options=myoptions}}
+    {{/autoForm}}
+
+
+    {{#autoForm collection="Recipes" id="insertRecipeForm" type="insert"}}
+        <fieldset>
+            <legend>Add a Book</legend>
+            {{> afQuickField name='name'}}
+            {{> afQuickField name='desc'}}
+            {{> afQuickField name='occupations' multiple=false tags=true options=myoptions}}
+
+        </fieldset>
+        <button type="submit" class="btn btn-primary">Insert</button>
+    {{/autoForm}}
 
 
 
-
-    <div class="new-recipe-container">
-        <i class="fa fa-close"></i>
-        {{> quickForm collection="Recipes" id="insertIngredientForm" type="insert" class="new-recipe-form"}}
-    </div>
 </template>

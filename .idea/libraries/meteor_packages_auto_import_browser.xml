@@ -192,6 +192,8 @@
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/useraccounts_unstyled/1.14.2/web.browser/lib/at_signup_link.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/raix_handlebar-helpers/0.2.5/web.browser/helpers.operators.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/raix_handlebar-helpers/0.2.5/web.browser/common.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/natestrauser_select2/4.0.3/web.browser/lib/select2/dist/js/select2.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/natestrauser_select2/4.0.3/web.browser/lib/select2/dist/css/select2.css" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_controller/1.0.12/web.browser/lib/controller.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_controller/1.0.12/web.browser/lib/controller_client.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_controller/1.0.12/web.browser/lib/wait_list.js" />
@@ -200,8 +202,16 @@
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_dynamic-template/1.0.12/web.browser/blaze_overrides.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_dynamic-template/1.0.12/web.browser/dynamic_template.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_dynamic-template/1.0.12/web.browser/version_conflict_error.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/matb33_collection-hooks/0.8.4/web.browser/findone.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/matb33_collection-hooks/0.8.4/web.browser/upsert.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/matb33_collection-hooks/0.8.4/web.browser/users-compat.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/matb33_collection-hooks/0.8.4/web.browser/find.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_layout/1.0.12/web.browser/version_conflict_errors.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/matb33_collection-hooks/0.8.4/web.browser/insert.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_layout/1.0.12/web.browser/layout.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/matb33_collection-hooks/0.8.4/web.browser/collection-hooks.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/matb33_collection-hooks/0.8.4/web.browser/remove.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/matb33_collection-hooks/0.8.4/web.browser/update.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_location/1.0.11/web.browser/lib/utils.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_location/1.0.11/web.browser/lib/state.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_location/1.0.11/web.browser/lib/location.js" />
@@ -495,6 +505,7 @@
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/html-tools/1.0.11/web.browser/tokenize.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/random/1.0.10/web.browser/random_tests.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/html-tools/1.0.11/web.browser/parse.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/aldeed_autoform-select2/1.0.5/web.browser/packages/aldeed_autoform-select2.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/html-tools/1.0.11/web.browser/charref.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/rate-limit/1.0.6/web.browser/rate-limit.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/htmljs/1.0.11/web.browser/html.js" />
@@ -714,6 +725,8 @@
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/useraccounts_unstyled/1.14.2/web.browser/lib/at_signup_link.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/raix_handlebar-helpers/0.2.5/web.browser/helpers.operators.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/raix_handlebar-helpers/0.2.5/web.browser/common.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/natestrauser_select2/4.0.3/web.browser/lib/select2/dist/js/select2.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/natestrauser_select2/4.0.3/web.browser/lib/select2/dist/css/select2.css" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_controller/1.0.12/web.browser/lib/controller.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_controller/1.0.12/web.browser/lib/controller_client.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_controller/1.0.12/web.browser/lib/wait_list.js" />
@@ -722,8 +735,16 @@
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_dynamic-template/1.0.12/web.browser/blaze_overrides.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_dynamic-template/1.0.12/web.browser/dynamic_template.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_dynamic-template/1.0.12/web.browser/version_conflict_error.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/matb33_collection-hooks/0.8.4/web.browser/findone.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/matb33_collection-hooks/0.8.4/web.browser/upsert.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/matb33_collection-hooks/0.8.4/web.browser/users-compat.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/matb33_collection-hooks/0.8.4/web.browser/find.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_layout/1.0.12/web.browser/version_conflict_errors.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/matb33_collection-hooks/0.8.4/web.browser/insert.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_layout/1.0.12/web.browser/layout.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/matb33_collection-hooks/0.8.4/web.browser/collection-hooks.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/matb33_collection-hooks/0.8.4/web.browser/remove.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/matb33_collection-hooks/0.8.4/web.browser/update.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_location/1.0.11/web.browser/lib/utils.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_location/1.0.11/web.browser/lib/state.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_location/1.0.11/web.browser/lib/location.js" />
@@ -1017,6 +1038,7 @@
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/html-tools/1.0.11/web.browser/tokenize.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/random/1.0.10/web.browser/random_tests.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/html-tools/1.0.11/web.browser/parse.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/aldeed_autoform-select2/1.0.5/web.browser/packages/aldeed_autoform-select2.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/html-tools/1.0.11/web.browser/charref.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/rate-limit/1.0.6/web.browser/rate-limit.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/htmljs/1.0.11/web.browser/html.js" />

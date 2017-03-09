@@ -1,5 +1,5 @@
 <template name="MemberProfile">
-<article class="recipe  in-menu">
+    <article class="recipe {{#if inMenu}} in-menu{{/if}}">
     <h3>{{name}}</h3>
 
 {{#if editMorde}}
@@ -8,9 +8,15 @@
 {{else}}
 
 
-        <p>{{desc}}</p>
+
+
 
         <a href="/recipe/{{_id}}">View Details</a>
+    {{#if inMenu}}
+        <button class="btn-deny toggle-menu">Remove From Menu</button>
+    {{else}}
+        <button class="btn-primary toggle-menu">Add To Menu</button>
+    {{/if}}
 
 {{/if}}
 

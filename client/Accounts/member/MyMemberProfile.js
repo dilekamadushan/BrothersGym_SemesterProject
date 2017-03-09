@@ -1,7 +1,7 @@
 Template.MemberProfile.onCreated(function(){
     this.editMode = new ReactiveVar (false );
-    // this.editMode = new ReactiveVar ( );
-   // this.editMode.set(false);
+    this.editMode = new ReactiveVar ( );
+    // this.editMode.set(false);
 
 });
 
@@ -14,10 +14,6 @@ Template.MemberProfile.helpers({
 
     editMorde: function(){
         return Template.instance().editMode.get();
-    },
-    IsUserAdmin: function(){
-
-        return Roles.userIsInRole(Meteor.userId(),'admin');
     }
 
 });
@@ -27,18 +23,27 @@ Template.MemberProfile.helpers({
 Template.MemberProfile.events({
     'click .toggle-menu': function(){
         console.log('click');
-        Meteor.call('toggleMenuItemMemberProfile', this._id, this.inMenu);
+        Meteor.call('toggleMenuItem', this._id, this.inMenu);
     },
     'click .fa-trash' :function() {
         Meteor.call('deleteMemberProfile', this._id);
 
     },
-
     'click .fa-pencil' :function(event, template) {
-        console.log("clicked");
         //Session.set('editMode', !Session.get('editMode'));
+
+        let user= Meteor.users.findOne({_id:this.profile});
+
+        this.name = user.profile.firstName;
+        MemberProfiles.update(this._id,{
+            $set:{
+                name: user.profile.firstName,
+            }
+        })
+
+
         template.editMode.set( !template.editMode.get());
-        //Session.set('newMemberProfile',false);
-    }
+
+    },
 
 })

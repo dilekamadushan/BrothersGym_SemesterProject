@@ -24,24 +24,18 @@ Meteor.publish('memberProfiles',function () {
 
     }
 });
-// Meteor.publish('myProfiles',function () {
-//
-//
-//     if(Roles.userIsInRole(this.userId,'admin')){
-//         return MyProfiles.find({});
-//
-//     }
-//     else if(Roles.userIsInRole(this.userId,'member')){
-//         return MyProfiles.find({profile:this.userId});
-//
-//     }
-// });
+Meteor.publish('myProfiles',function () {
 
-//
-// Meteor.publish('singleRecipe',function (id) {
-//     check(id, String);
-//     return Recipes.find({_id: id});
-// });
+
+    if(Roles.userIsInRole(this.userId,'admin')){
+        return MyProfiles.find({});
+
+    }
+    else if(Roles.userIsInRole(this.userId,'member')){
+        return MyProfiles.find({memberId:this.userId});
+
+    }
+});
 
 
 Meteor.publish('schedules',function () {
@@ -65,7 +59,3 @@ Meteor.publish('memberPayments',function () {
     return MemberPayments.find({});
 });
 
-// Meteor.publish('singleRecipe',function (id) {
-//     check(id, String);
-//     return Schedules.find({_id: id});
-// });

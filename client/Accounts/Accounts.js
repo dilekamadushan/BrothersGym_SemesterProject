@@ -9,10 +9,10 @@ AccountsTemplates.configure({
     confirmPassword:false,
     termsUrl:'terms-of-use',
     privacyUrl:'privacy',
-    // sendVerificationEmail: true,
-    // enforceEmailVerification:true,
-    onLogoutHook:myLogoutFunc,
-    forbidClientAccountCreation: true
+    sendVerificationEmail: true,
+    enforceEmailVerification:true,
+    //onLogoutHook:myLogoutFunc,
+    forbidClientAccountCreation: false,
 
 
 

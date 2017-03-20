@@ -4,10 +4,11 @@ MemberPayments.before.insert(function (userId, doc) {
     let user = Meteor.users.findOne({_id: doc.memberId});
     doc.name = user.profile.firstName;
 
-    let memberProfile = MemberProfiles.direct.findOne({profile: user._id});
+    let memberProfile = MyProfiles.direct.findOne({memberId: user._id});
 
 console.log( "BEFORE ADDING"+memberProfile);
     console.log(memberProfile);
+    Meteor.call('updateExpiryDate',memberProfile,user);
 
 
 
@@ -26,22 +27,23 @@ console.log( "BEFORE ADDING"+memberProfile);
     // }
 
 
-    if (memberProfile) {
-        if (!memberProfile.expiryDate) {
-            console.log("expiryDate was not previously set!");
-        } else {
-            MemberProfiles.update(memberProfile._id, {
-                $set: {
-                    expiryDate: moment(memberProfile.expiryDate).add(31, 'days').toDate()
-                }
-            });
-        }
-    } else {
-        console.log("memberProfile not found");
-    }
-    let memberProfile2 = MemberProfiles.direct.findOne({profile: user._id});
-    console.log( "aFTER aDDING"+memberProfile2);
-    console.log(memberProfile2);
+    // if (memberProfile) {
+    //     if (!memberProfile.expiryDate) {
+    //         console.log("expiryDate was not previously set!");
+    //     } else {
+    //         MemberProfiles.update(memberProfile._id, {
+    //             $set: {
+    //                 name:"Dileka"
+    //                 //expiryDate: moment(memberProfile.expiryDate).add(31, 'days').toDate()
+    //             }
+    //         });
+    //     }
+    // } else {
+    //     console.log("memberProfile not found");
+    // }
+    // let memberProfile2 = MemberProfiles.direct.findOne({profile: user._id});
+    // console.log( "aFTER aDDING"+memberProfile2);
+    // console.log(memberProfile2);
 });
 
 

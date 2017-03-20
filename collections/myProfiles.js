@@ -1,8 +1,12 @@
+MyProfiles = new Mongo.Collection('myProfiles');
+MyProfiles.before.insert(function (userId, doc) {
+    let user= Meteor.users.findOne({_id:doc.memberId});
+
+    doc.name = user.profile.firstName;
+});
 
 
-Schedules = new Mongo.Collection('schedules');
-
-Schedules.allow({
+MyProfiles.allow({
     insert: function (userId, doc) {
         return !!userId;
     },
@@ -12,7 +16,9 @@ Schedules.allow({
 });
 
 
-ScheduleSchema = new SimpleSchema({
+
+MyProfileSchema = new SimpleSchema({
+
     name: {
         type: String,
 
@@ -49,44 +55,14 @@ ScheduleSchema = new SimpleSchema({
             }
             ,
         }
-    },
+            },
 
 
-    workouts: {
-        type: Array,
-        optional: true
-    },
-    'workouts.$': {
-        type: Object
-    },
-    'workouts.$.name': {
-        type: String,
-        allowedValues: ["Dumbbell Squat","Bar Squat","Bench Press","Dumbell Bench Press","Bent Arm Pull","Cross Over","Dumbell Flies","Inclined Press","Tricep Extension","Tricep PushDown","Lying Down Tricep"],
-        autoform: {
-            afFieldInput: {
-                firstOption: "(Select a State)"
-            }
-        }
-    },
-    'workouts.$.repetition': {
-        type: String
-    },
     inMenu:{
         type: Boolean,
         defaultValue: false,
         optional: true,
         autoform:{
-            type: "hidden"
-        }
-    },
-    createdAt: {
-        type: Date,
-        label: "Created At",
-        autoValue: function () {
-
-            return new Date();
-        },
-        autoform: {
             type: "hidden"
         }
     },
@@ -100,19 +76,67 @@ ScheduleSchema = new SimpleSchema({
             type: "hidden"
         }
     },
+    expiryDate: {
+        type: Date,
+
+        defaultValue:function () {
+            return new Date();
+        },
+
+
+        autoform: {
+            type: "hidden"
+        }
+    },
+
+    createdAt: {
+        type: Date,
+        label: "Created At",
+        defaultValue:function () {
+            return new Date();
+        },
+
+        autoform: {
+            type: "hidden"
+        }
+    },
+
+
 });
 
 Meteor.methods({
-    toggleMenuItem: function(id, currentState){
-        Schedules.update(id,{
+    toggleMenuItemMyProfile: function(id, currentState){
+        MyProfiles.update(id,{
             $set:{
                 inMenu: !currentState
             }
         });
     },
-    deleteSchedule: function(id){
-        Schedules.remove(id);
+    deleteMyProfile: function(id){
+        MyProfiles.remove(id);
+    },
+    updateExpiryDate:function(memberProfile,user){
+
+        if (memberProfile) {
+            if (!memberProfile.expiryDate) {
+                console.log("expiryDate was not previously set!");
+            } else {
+                MyProfiles.update(memberProfile._id, {
+                    $set: {
+                        // name:"Dileka"
+                        expiryDate: moment(memberProfile.expiryDate).add(31, 'days').toDate()
+                    }
+                });
+            }
+        } else {
+            console.log("memberProfile not found");
+        }
+        let memberProfile2 = MyProfiles.direct.findOne({memberId: user._id});
+        console.log( "aFTER aDDING"+memberProfile2);
+        console.log(memberProfile2);
+
     }
+
 });
 
-Schedules.attachSchema(ScheduleSchema);
+MyProfiles.attachSchema(MyProfileSchema);

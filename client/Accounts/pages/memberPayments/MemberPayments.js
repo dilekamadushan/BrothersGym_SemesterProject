@@ -4,7 +4,7 @@ Template.MemberPayments.onCreated(function () {
     var self = this;
     self.autorun(function () {
         self.subscribe('memberPayments');
-        self.subscribe('memberProfiles');
+        self.subscribe('myProfiles');
     });
 });
 

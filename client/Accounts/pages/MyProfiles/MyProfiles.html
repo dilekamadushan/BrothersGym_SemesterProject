@@ -1,0 +1,20 @@
+<template name="MyProfiles">
+    {{#if $.Session.get 'newMyProfile'}}
+         {{> NewMyProfile}}
+    {{else}}
+    
+              <button class="new-myProfile">New MyProfile</button>
+    
+    {{/if}}
+
+    <section class="recipes">
+        {{#if Template.subscriptionsReady}}
+            {{#each myProfiles}}
+                {{> MyProfile}}
+            {{/each}}
+        {{else}}
+            <p>Loading</p>
+        {{/if}}
+    </section>
+
+</template>

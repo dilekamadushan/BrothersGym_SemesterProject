@@ -1,9 +1,4 @@
-<template name="master_layout">
-
-    {{#if $not currentUser }}
-        {{> login_layout}}
-    {{else}}
-
+<template name="adminLayout">
     <div class="wrapper">
 
         {{> nav_bar }}
@@ -55,6 +50,7 @@
         {{> side_bar_control }}
 
     </div>
-    {{/if}}
+
+
 
 </template>

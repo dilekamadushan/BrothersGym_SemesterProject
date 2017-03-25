@@ -14,8 +14,8 @@ Template.NewMemberPayment.onCreated(function () {
     var self = this;
     self.autorun(function () {
 
-        self.subscribe('clients');
         self.subscribe('memberPayments');
+        self.subscribe('memberUsers');
 
     });
 });

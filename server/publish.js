@@ -4,10 +4,19 @@ Meteor.publish('allUsers',function () {
 
         return Meteor.users.find({});
     }
-    else if(Roles.userIsInRole(this.userId,'admin')){
+    else if(Roles.userIsInRole(this.userId,'officer')){
 
     }
 
+
+});
+
+Meteor.publish('memberUsers',function () {
+
+    if(Roles.userIsInRole(this.userId,'officer')){
+
+        return Meteor.users.find({roles:"member"});
+    }
 
 });
 
@@ -24,10 +33,32 @@ Meteor.publish('memberProfiles',function () {
 
     }
 });
+
+Meteor.publish('memberAttendances',function () {
+
+
+    if(Roles.userIsInRole(this.userId,'officer')){
+        return MemberAttendances.find({});
+
+    }
+
+});
+
+
+
+
+
+
+
+
 Meteor.publish('myProfiles',function () {
 
 
     if(Roles.userIsInRole(this.userId,'admin')){
+        return MyProfiles.find({});
+
+    }
+    else if(Roles.userIsInRole(this.userId,'officer')){
         return MyProfiles.find({});
 
     }
@@ -37,25 +68,26 @@ Meteor.publish('myProfiles',function () {
     }
 });
 
+Meteor.publish('memberPayments',function () {
+
+
+    if(Roles.userIsInRole(this.userId,'admin')){
+        return MemberPayments.find({});
+
+    }
+    else if(Roles.userIsInRole(this.userId,'member')){
+        return MemberPayments.find({memberId:this.userId});
+
+    }
+    else if(Roles.userIsInRole(this.userId,'officer')){
+        return MemberPayments.find({});
+
+    }
+});
+
 
 Meteor.publish('schedules',function () {
     return Schedules.find({});
 });
 
-
-
-Meteor.publish('recipes',function () {
-    return Recipes.find({});
-});
-
-Meteor.publish('occupations', function () {
-    return Occupations.find();
-});
-Meteor.publish('clients', function () {
-    return Clients.find();
-});
-
-Meteor.publish('memberPayments',function () {
-    return MemberPayments.find({});
-});
 

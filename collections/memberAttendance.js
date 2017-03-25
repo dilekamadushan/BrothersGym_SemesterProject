@@ -1,20 +1,14 @@
-MemberPayments = new Mongo.Collection('memberPayments');
-
-MemberPayments.before.insert(function (userId, doc) {
+MemberAttendances = new Mongo.Collection('memberAttendances');
+MemberAttendances.before.insert(function (userId, doc) {
     let user = Meteor.users.findOne({_id: doc.memberId});
     doc.name = user.profile.firstName;
 
     let memberProfile = MyProfiles.direct.findOne({memberId: user._id});
-
-console.log( "BEFORE ADDING"+memberProfile);
-    console.log(memberProfile);
-    Meteor.call('updateExpiryDate',memberProfile,user);
 });
 
 
 
-
-MemberPayments.allow({
+MemberAttendances.allow({
     insert: function (userId, doc) {
         return !!userId;
     },
@@ -25,7 +19,7 @@ MemberPayments.allow({
 
 
 
-MemberPaymentSchema = new SimpleSchema({
+MemberAttendanceSchema = new SimpleSchema({
 
     name: {
         type: String,
@@ -33,7 +27,7 @@ MemberPaymentSchema = new SimpleSchema({
         autoform: {
             type: "hidden"
         }}
-        ,
+    ,
 
     memberId: {
         type: String,
@@ -49,28 +43,10 @@ MemberPaymentSchema = new SimpleSchema({
                 });
                 return options;
             },
-    },
-    },
-
-    paymentType: {
-        optional: true,
-        type: String,
-        autoform: {
-            type: "select-radio",
-            options: function() {
-                return [{
-                    label: "Monthly",
-                    value: "monthly"
-                }, {
-                    label: "Yearly",
-                    value: "yearly"
-                }, ];
-            }
-        }
-    }
+        }}
 
     ,
-    inMenu:{
+    present:{
         type: Boolean,
         defaultValue: false,
         optional: true,
@@ -90,29 +66,30 @@ MemberPaymentSchema = new SimpleSchema({
     },
     createdAt: {
         type: Date,
-        label: "Created At",
+        label: "Preesent Date",
         autoValue: function () {
+            //
+            //  return new Date();
             return new Date();
         },
         autoform: {
             type: "hidden"
-        },
-
+        }
     }
 });
 
 Meteor.methods({
-    toggleMenuItemMemberPayment: function(id, currentState){
-        MemberPayments.update(id,{
+    togglePresentMemberAttendance: function(id, currentState){
+        MemberAttendances.update(id,{
             $set:{
-                inMenu: !currentState
+                present: !currentState
             }
         });
     },
-    deleteMemberPayment: function(id){
-        MemberPayments.remove(id);
+    deleteMemberAttendance: function(id){
+        MemberAttendances.remove(id);
     },
 
 });
 
-MemberPayments.attachSchema(MemberPaymentSchema);
+MemberAttendances.attachSchema(MemberAttendanceSchema);

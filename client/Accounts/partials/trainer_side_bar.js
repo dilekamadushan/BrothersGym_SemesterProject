@@ -1,6 +1,6 @@
 
 
-Template.side_bar.events({
+Template.trainer_side_bar.events({
 
 
     // 'click .addMember': function () {
@@ -46,7 +46,7 @@ Template.side_bar.events({
     //
     // }
 });
-Template.side_bar.helpers({
+Template.trainer_side_bar.helpers({
     getUserName:function(){
         return currentUser.profile.firstName;
     },  firstName: function() {

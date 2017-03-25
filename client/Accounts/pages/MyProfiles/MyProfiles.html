@@ -1,10 +1,15 @@
 <template name="MyProfiles">
     {{#if $.Session.get 'newMyProfile'}}
+
          {{> NewMyProfile}}
+
     {{else}}
-    
-              <button class="new-myProfile">New MyProfile</button>
-    
+
+
+
+        {{#if isInRole 'admin'}}
+            <button class="new-myProfile">New MyProfile</button>
+        {{/if}}
     {{/if}}
 
     <section class="recipes">

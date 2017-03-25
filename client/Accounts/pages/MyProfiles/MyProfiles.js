@@ -4,6 +4,7 @@ Template.MyProfiles.onCreated(function () {
    var self = this;
    self.autorun(function () {
       self.subscribe('myProfiles');
+       self.subscribe('memberAttendances');
    });
 });
 

@@ -1,13 +1,19 @@
 <template name="master_layout">
 
-    {{#if $not currentUser }}
-        {{> login_layout}}
-    {{else}}
+
 
     <div class="wrapper">
 
         {{> nav_bar }}
-        {{> side_bar }}
+        {{#if isInRole 'admin'}}
+        {{> admin_side_bar }}
+           {{/if}}
+        {{#if isInRole 'trainer'}}
+        {{> trainer_side_bar }}
+        {{/if}}
+        {{#if isInRole 'officer'}}
+        {{> officer_side_bar }}
+        {{/if}}
 
 
 
@@ -55,6 +61,6 @@
         {{> side_bar_control }}
 
     </div>
-    {{/if}}
+
 
 </template>

@@ -1,5 +1,7 @@
 <template name="MyProfile">
-    <article class="recipe {{#if inMenu}} in-menu{{/if}}">
+
+    <article class="recipe {{#if calculateExpiry}} in-menu{{/if}}">
+
         <h3>{{name}}</h3>
         
          {{#if editMorde}}

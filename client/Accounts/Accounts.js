@@ -21,6 +21,7 @@ AccountsTemplates.configure({
 });
 
 
+
     AccountsTemplates.addFields([
 
         {

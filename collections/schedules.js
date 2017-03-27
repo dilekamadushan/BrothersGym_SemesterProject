@@ -1,6 +1,12 @@
 
 
 Schedules = new Mongo.Collection('schedules');
+Schedules.before.insert(function (userId, doc) {
+    let user= Meteor.users.findOne({_id:doc.memberId});
+
+    doc.name = user.profile.firstName;
+});
+
 
 Schedules.allow({
     insert: function (userId, doc) {

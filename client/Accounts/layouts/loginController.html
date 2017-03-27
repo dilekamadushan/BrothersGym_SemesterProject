@@ -1,18 +1,23 @@
 <template name="login_controller_layout">
 
-    {{#if $not currentUser }}
-{{> login_layout}}
 
-    {{else if isInRole 'admin'}}
-      {{goAdminPage}}
+
+        {{#if $not currentUser }}
+            {{> login_layout}}
+
+        {{else if isInRole 'admin'}}
+            {{goAdminPage}}
         {{else if isInRole 'member'}}
-        {{goMemberPage}}
-            {{else if isInRole 'trainer'}}
-                  {{goTrainerPage}}
+            {{goMemberPage}}
+        {{else if isInRole 'trainer'}}
+            {{goTrainerPage}}
 
-    {{else if isInRole 'officer'}}
-        {{goOfficerPage}}
-            {{/if}}
+        {{else if isInRole 'officer'}}
+            {{goOfficerPage}}
+        {{/if}}
+
+
+
 
 
 

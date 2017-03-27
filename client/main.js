@@ -1,5 +1,5 @@
-import { Template } from 'meteor/templating';
-import { ReactiveVar } from 'meteor/reactive-var';
+// import { Template } from 'meteor/templating';
+// import { ReactiveVar } from 'meteor/reactive-var';
 
 
 // if (Meteor.isClient) {
@@ -11,3 +11,7 @@ import { ReactiveVar } from 'meteor/reactive-var';
 //         }
 //     })
 // }
+
+// Accounts.ui.config({
+//     homeRoute: '/'
+// });

@@ -12,8 +12,11 @@ AccountsTemplates.configure({
     sendVerificationEmail: true,
      enforceEmailVerification:true,
 });
+
+
 Meteor.startup(function () {
     process.env.MAIL_URL = 'smtp://postmaster%40sandbox895f03011a344b548bb893ce0ba518e5.mailgun.org:4866f1547aded17d2ef7a1485d1b4b86@smtp.mailgun.org:587';
+
 });
 // Meteor.startup(function () {
 //     smtp = {

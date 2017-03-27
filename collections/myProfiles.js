@@ -30,6 +30,7 @@ MyProfileSchema = new SimpleSchema({
     memberId: {
         type: String,
         optional:false,
+        unique:true,
         label: 'Member',
         autoform: {
             options: function () {

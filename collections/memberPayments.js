@@ -39,6 +39,7 @@ MemberPaymentSchema = new SimpleSchema({
         type: String,
         optional:false,
         label: 'Member',
+
         autoform: {
             options: function () {
                 let options = [];

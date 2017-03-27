@@ -41,6 +41,10 @@ Meteor.publish('memberAttendances',function () {
         return MemberAttendances.find({});
 
     }
+    if(Roles.userIsInRole(this.userId,'admin')){
+        return MemberAttendances.find({});
+
+    }
 
 });
 

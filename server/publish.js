@@ -45,10 +45,31 @@ Meteor.publish('memberAttendances',function () {
         return MemberAttendances.find({});
 
     }
+    if(Roles.userIsInRole(this.userId,'member')){
+        return MemberAttendances.find({memberId:this.userId});
+
+    }
 
 });
 
-
+Meteor.publishComposite('radiegtya_chat', function(doc, sort) {
+    console.log("subscribing some Chat with it's relation");
+    var doc = doc || {};
+    var sort = sort || {};
+    return{
+        find: function() {
+            return Radiegtya.Chat.find(doc, sort);
+        },
+        children: [
+            /* return all related Users */
+            {
+                find: function(collection) {
+                    return Meteor.users.find(collection.userId);
+                }
+            },
+        ],
+    }
+});
 
 
 

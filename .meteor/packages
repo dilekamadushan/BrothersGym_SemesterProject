@@ -58,3 +58,7 @@ practicalmeteor:mocha
 dburles:factory
 xolvio:cleaner
 
+meteoris:core
+meteoris:theme-admin
+meteoris:user
+meteoris:role

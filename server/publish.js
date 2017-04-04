@@ -20,19 +20,43 @@ Meteor.publish('memberUsers',function () {
 
 });
 
+Meteor.publish('Trainers',function () {
 
-Meteor.publish('memberProfiles',function () {
 
 
-    if(Roles.userIsInRole(this.userId,'admin')){
-        return MemberProfiles.find({});
+        return Meteor.users.find({roles:"trainer"});
 
-    }
-    else if(Roles.userIsInRole(this.userId,'member')){
-        return MemberProfiles.find({profile:this.userId});
 
-    }
 });
+
+Meteor.publish('FitnessClasses',function () {
+
+
+
+    return FitnessClasses.find({});
+
+
+});
+
+
+
+//
+// Meteor.publish('memberProfiles',function () {
+//
+//
+//     if(Roles.userIsInRole(this.userId,'admin')){
+//         return MemberProfiles.find({});
+//
+//     }
+//     else if(Roles.userIsInRole(this.userId,'member')){
+//         return MemberProfiles.find({profile:this.userId});
+//
+//     }
+//     else if(Roles.userIsInRole(this.userId,'member')){
+//         return MemberProfiles.find({profile:this.userId});
+//
+//     }
+// });
 
 Meteor.publish('memberAttendances',function () {
 
@@ -49,6 +73,12 @@ Meteor.publish('memberAttendances',function () {
         return MemberAttendances.find({memberId:this.userId});
 
     }
+    if(Roles.userIsInRole(this.userId,'trainer')){
+        return MemberAttendances.find({});
+
+    }
+
+
 
 });
 
@@ -84,6 +114,10 @@ Meteor.publish('myProfiles',function () {
 
     }
     else if(Roles.userIsInRole(this.userId,'officer')){
+        return MyProfiles.find({});
+
+    }
+    else if(Roles.userIsInRole(this.userId,'trainer')){
         return MyProfiles.find({});
 
     }

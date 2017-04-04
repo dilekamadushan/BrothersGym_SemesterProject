@@ -1,0 +1,33 @@
+<template name="FitnessClass">
+
+    <article class="  recipe {{#if active}} in-menu{{/if}}">
+
+        <h3>{{name}}</h3>
+
+        {{#if editMorde}}
+
+            {{> quickForm collection="FitnessClasses" id=updateFitnessClassId type="update" doc=this autosave=true}}
+        {{else}}
+
+
+            <p>{{trainerName}}</p>
+            <p>
+
+            </p>
+            <a href="//{{_id}}">View Details</a>
+
+            {{#if active}}
+                <button class="btn-deny toggle-menu">Deactivate</button>
+            {{else}}
+                <button class="btn-primary toggle-menu">Activate</button>
+            {{/if}}
+        {{/if}}
+
+
+
+        <i class="fa fa-pencil"></i>
+        <i class="fa fa-trash"></i>
+
+
+    </article>
+</template>

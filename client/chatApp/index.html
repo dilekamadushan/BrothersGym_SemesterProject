@@ -17,7 +17,7 @@
                         {{#each models}}
                             <div class="direct-chat-msg {{messageClass}}"> <!-- Use messageClass to know whether it right style or left style -->
                                 <div class="direct-chat-info clearfix">
-                                    <span class="direct-chat-name pull-left">{{user.profile.name}}</span> <!-- belongs to relationship from Collections helper we already make before -->
+                                    <span class="direct-chat-name pull-left">{{user.profile.firstName}}</span> <!-- belongs to relationship from Collections helper we already make before -->
                                     <span class="direct-chat-timestamp pull-right">{{meteoris_formatter 'dateTime' createdAt}}</span> <!-- using meteoris_formatter to easily format date -->
                                 </div><!-- /.direct-chat-info -->
                                 <img class="direct-chat-img" src="images/user.png" alt="message user image"><!-- /.direct-chat-img -->

@@ -56,14 +56,14 @@ Radiegtya.Chat.attachSchema(schemas);
  * you can modify this later if you want to use "userIsInRole" rather than "userIsInGroup"
  */
 Radiegtya.Chat.allow({
-     insert: function(userId, doc) {
-       return Meteoris.Role.userIsInGroup("user") || Meteoris.Role.userIsInGroup("admin");
+    // insert: function(userId, doc) {
+       // return Meteoris.Role.userIsInGroup("user") || Meteoris.Role.userIsInGroup("admin");
 
-    // insert: function (userId, doc) {
-    //     return !!userId;
-    // },
-    // update: function(userId,doc){
-    //     return !!userId;
+    insert: function (userId, doc) {
+        return !!userId;
+    },
+    update: function(userId,doc){
+        return !!userId;
     }
 
 });

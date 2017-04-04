@@ -1,0 +1,19 @@
+<template name="Trainers">
+    <div class="container">
+    <div class="about_trainer">
+    <h3 class="m_2">Our Trainers</h3>
+
+
+        {{#if Template.subscriptionsReady}}
+            {{#each Trainers}}
+            <div class="row about_box">
+                <div class="col-md-3"></div>
+                {{> Trainer}}
+            </div>
+            {{/each}}
+        {{else}}
+            <p>Loading</p>
+        {{/if}}
+    </div>
+    </div>
+</template>

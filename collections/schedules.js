@@ -109,7 +109,7 @@ ScheduleSchema = new SimpleSchema({
 });
 
 Meteor.methods({
-    toggleMenuItem: function(id, currentState){
+    toggleAssignItem: function(id, currentState){
         Schedules.update(id,{
             $set:{
                 inMenu: !currentState

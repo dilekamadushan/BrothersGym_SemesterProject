@@ -1,0 +1,25 @@
+<template name="oneToOneChat">
+    <div class="box-body">
+        <!-- Conversations are loaded here -->
+        <div class="direct-chat-messages">
+
+                {{#each models}}
+                    <div class="direct-chat-msg {{messageClass}}"> <!-- Use messageClass to know whether it right style or left style -->
+                        <div class="direct-chat-info clearfix">
+                            <a class="direct-chat-name pull-left" href="/chat/member/{{memberId}}">{{name}}</a> <!-- belongs to relationship from Collections helper we already make before -->
+
+                        </div><!-- /.direct-chat-info -->
+                        <img class="direct-chat-img direct-chat-name pull-left" src="images/user.png" alt="message user image"><!-- /.direct-chat-img -->
+
+                    </div><!-- /.direct-chat-msg -->
+                {{/each}}
+
+
+            <!--Show spinner/loading when template subscriptions is not ready yet-->
+            {{#unless Template.subscriptionsReady}}
+                {{> spinner}}
+            {{/unless}}
+
+        </div><!--/.direct-chat-messages-->
+    </div><!-- /.box-body -->
+</template>

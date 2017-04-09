@@ -126,6 +126,15 @@ Meteor.publish('myProfiles',function () {
 
     }
 });
+Meteor.publish('chatProfiles',function () {
+
+
+
+        return MyProfiles.find({});
+
+
+
+});
 
 Meteor.publish('memberPayments',function () {
 

@@ -100,7 +100,35 @@ Meteor.publishComposite('radiegtya_chat', function(doc, sort) {
         ],
     }
 });
+Meteor.publishComposite('oneToOneChat', function(id1,id2, sort) {
+    console.log("subscribing some Chat with it's relation");
+    var doc = doc || {};
+    var sort = sort || {};
+    return{
+        find: function() {
+           // return OneToOneChat.find(doc, sort);
+            return OneToOneChat.find(
 
+
+
+            {
+                $and : [
+                    { $or : [ { channelId1 :id1 }, { channelId1: id2 } ] },
+                    { $or : [ { channelId2 :id1 }, { channelId2: id2 } ] }
+                ]
+
+            },sort)
+        },
+        children: [
+            /* return all related Users */
+            {
+                find: function(collection) {
+                    return Meteor.users.find(collection.userId);
+                }
+            },
+        ],
+    }
+});
 
 
 

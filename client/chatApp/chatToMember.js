@@ -6,7 +6,7 @@
 /*
  * instantiate the Controller here
  */
-var ctrl = new Radiegtya.OneToOneChatController();
+var ctrl = new OneToOne.ChatController();
 
 /*
  * subscribe chat from server with criteria from controller and sort limit from controller
@@ -14,24 +14,22 @@ var ctrl = new Radiegtya.OneToOneChatController();
  */
 Template.chatToMember.onCreated(function() {
 
-    console.log("hi im here",this.data.Id);
-    console.log(Template.instance().data)
     var self = this;
     self.autorun(function() {
-        self.subscribe('radiegtya_chat',  {channelId:  "LqtvAWqqJjrMwDkC"}, ctrl.getSortLimit());
+        console.log("the logged id",Meteor.userId(), "the receiver id",Router.current().params._id)
+        self.subscribe('oneToOneChat',  Router.current().params._id,Meteor.userId(), ctrl.getSortLimit());
     });
 });
 
 Template.chatToMember.helpers({
     /* check whether collection empty or not from index method */
     isEmpty: function() {
-        return ctrl.index().isEmpty;
+        return ctrl.index(Router.current().params._id,Meteor.userId()).isEmpty;
     },
     /* get models from index method */
     models: function() {
-        console.log("in template",this.data.Id);
-        console.log(Template.instance().data())
-        return ctrl.index().models;
+
+        return ctrl.index(Router.current().params._id,Meteor.userId()).models;
     },
     /*
      *  use "" chat-message styling
@@ -50,7 +48,6 @@ Template.chatToMember.events = {
     'click #btnSend': function(e, t) {
 
         e.preventDefault();
-        console.log(this.data);
-        ctrl.post(t,this.data);
+        ctrl.post(t,Router.current().params._id,Meteor.userId());
     }
 };

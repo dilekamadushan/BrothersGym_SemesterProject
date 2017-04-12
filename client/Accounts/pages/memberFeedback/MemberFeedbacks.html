@@ -1,0 +1,21 @@
+<template name="MemberFeedbacks">
+    <h1>Member Feedbacks</h1> <br>
+    {{#if $.Session.get 'newMemberFeedback'}}
+        {{> NewMemberFeedback}}
+    {{else}}
+
+        <button class="new-memberFeedback">New Member Feedback</button>
+
+    {{/if}}
+
+    <section class="recipes">
+        {{#if Template.subscriptionsReady}}
+            {{#each memberFeedbacks}}
+                {{> MemberFeedback}}
+            {{/each}}
+        {{else}}
+            <p>Loading</p>
+        {{/if}}
+    </section>
+
+</template>

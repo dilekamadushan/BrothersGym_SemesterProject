@@ -28,4 +28,15 @@ Meteor.startup(function () {
 //
 //     process.env.MAIL_URL = 'smtp://' + encodeURIComponent(smtp.username) + ':' + encodeURIComponent(smtp.password) + '@' + encodeURIComponent(smtp.server) + ':' + smtp.port;
 // });
+// Meteor.methods({
+//     myServerMethod: function(doc) {
+//         try {
+//             check(doc, mySchema);
+//             mySchema.clean(doc);
+//         }catch(e){
+//             throw new Meteor.Error(e);
+//         }
+//
+//         //do some stuff here and throw a new Meteor.Error if there is a problem
+//     }});
 

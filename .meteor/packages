@@ -62,3 +62,10 @@ meteoris:core
 meteoris:theme-admin
 meteoris:user
 meteoris:role
+chart:chart
+maazalik:highcharts-gauge
+mrgalaxy:stripe
+yogiben:autoform-file
+cfs:standard-packages
+cfs:filesystem
+cfs:autoform

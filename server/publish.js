@@ -11,6 +11,20 @@ Meteor.publish('allUsers',function () {
 
 });
 
+Meteor.publish('memberFeedbacks',function () {
+
+    if(Roles.userIsInRole(this.userId,'admin')){
+
+        return MemberFeedback.find({});
+    }
+    else {
+
+        return MemberFeedback.find({author:this.userId});
+    }
+
+
+});
+
 Meteor.publish('memberUsers',function () {
 
     if(Roles.userIsInRole(this.userId,'officer')){
@@ -34,6 +48,22 @@ Meteor.publish('FitnessClasses',function () {
 
 
     return FitnessClasses.find({});
+
+
+});
+Meteor.publish('images',function () {
+
+
+
+    return Images.find({});
+
+
+});
+Meteor.publish('saleItems',function () {
+
+
+
+    return SaleItems.find({});
 
 
 });
@@ -81,6 +111,8 @@ Meteor.publish('memberAttendances',function () {
 
 
 });
+
+
 
 Meteor.publishComposite('radiegtya_chat', function(doc, sort) {
     console.log("subscribing some Chat with it's relation");

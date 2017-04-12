@@ -2,12 +2,134 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="891b5182-5cbe-4700-9598-bedd3ec8b3ba" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collections/oneToOneChats.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/supplements/download.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/brand1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/brand2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/brand3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/brand4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/brand5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/brand6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/crossword.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/h4-slide.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/h4-slide2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/h4-slide3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/h4-slide4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/h4-slide7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/product-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/product-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/product-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/product-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/product-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/product-6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/product-thumb-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/product-thumb-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/product-thumb-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/product-thumb-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/services/ucommerce-screen.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/services/ustora.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/Accounts/pages/memberFeedback/MemberFeedback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/Accounts/pages/memberFeedback/MemberFeedback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/Accounts/pages/memberFeedback/MemberFeedbacks.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/Accounts/pages/memberFeedback/MemberFeedbacks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/Accounts/pages/memberFeedback/NewMemberFeedback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/Accounts/pages/memberFeedback/NewMemberFeedback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/Accounts/pages/saleItems/NewSaleItem.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/Accounts/pages/saleItems/NewSaleItem.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/Accounts/pages/saleItems/SaleItem.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/Accounts/pages/saleItems/SaleItem.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/Accounts/pages/saleItems/saleItems.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/Accounts/pages/saleItems/saleItems.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/Reports/chartjs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/Reports/columnDemo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/Reports/columnDemo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/Reports/funnelDemo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/Reports/funnelDemo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/Reports/morris.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/Reports/pieChart.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/services/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/services/services.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/services/services.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/services/try.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/services/try2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collections/memberFeedback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collections/productImages/ImagesFs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collections/saleItems.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/AdminLTE.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/AdminLTE.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/_all-skins.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/_all-skins.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/app.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/dashboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/dashboard2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/fastclick.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/fastclick.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/jquery-2.2.3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/morris.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/morris.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/morris.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-black-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-black-light.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-black.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-black.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-blue-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-blue-light.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-blue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-blue.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-green-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-green-light.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-green.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-green.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-purple-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-purple-light.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-purple.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-purple.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-red-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-red-light.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-red.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-red.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-yellow-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-yellow-light.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-yellow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-yellow.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/js/charts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/services/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/services/bxslider.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/services/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/services/jquery.easing.1.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/services/jquery.sticky.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/services/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/services/owl.carousel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/services/owl.carousel.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/services/responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/services/script.slider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/services/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/stripe/stripe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/settings-development.json" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chatControllers/chatController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/styles.styl" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_npm.xml" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_npm.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/chatApp/chatToMember.html" afterPath="$PROJECT_DIR$/client/chatApp/chatToMember.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/chatApp/chatToMember.js" afterPath="$PROJECT_DIR$/client/chatApp/chatToMember.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/chatControllers/oneToOneChatController.js" afterPath="$PROJECT_DIR$/lib/chatControllers/oneToOneChatController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/packages" afterPath="$PROJECT_DIR$/.meteor/packages" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/versions" afterPath="$PROJECT_DIR$/.meteor/versions" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/Accounts/partials/AdminM_side_bar.html" afterPath="$PROJECT_DIR$/client/Accounts/partials/AdminM_side_bar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/main.html" afterPath="$PROJECT_DIR$/client/main.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/publicView/routes.js" afterPath="$PROJECT_DIR$/lib/publicView/routes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/Accounts.js" afterPath="$PROJECT_DIR$/server/Accounts.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/publish.js" afterPath="$PROJECT_DIR$/server/publish.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -29,103 +151,103 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="chatToMember.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/chatApp/chatToMember.js">
+      <file leaf-file-name="publish.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/publish.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+            <state relative-caret-position="197">
+              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chatController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/chatControllers/chatController.js">
+      <file leaf-file-name="saleItems.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/Accounts/pages/saleItems/saleItems.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+            <state relative-caret-position="0">
+              <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="oneToOneChats.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/collections/oneToOneChats.js">
+      <file leaf-file-name="saleItems.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/Accounts/pages/saleItems/saleItems.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="75" column="3" selection-start-line="75" selection-start-column="3" selection-end-line="75" selection-end-column="3" />
+            <state relative-caret-position="102">
+              <caret line="6" column="33" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewSaleItem.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/Accounts/pages/saleItems/NewSaleItem.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SaleItem.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/Accounts/pages/saleItems/SaleItem.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SaleItem.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/Accounts/pages/saleItems/SaleItem.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="8" selection-start-line="18" selection-start-column="3" selection-end-line="22" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="saleItems.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/collections/saleItems.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1785">
+              <caret line="105" column="9" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
               <folding>
-                <element signature="e#42#181#0" expanded="false" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="oneToOneChatController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/chatControllers/oneToOneChatController.js">
+      <file leaf-file-name="ImagesFs.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/collections/productImages/ImagesFs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="86" column="46" selection-start-line="86" selection-start-column="46" selection-end-line="86" selection-end-column="46" />
+            <state relative-caret-position="360">
+              <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="publish.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/publish.js">
+      <file leaf-file-name="memberFeedback.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/collections/memberFeedback.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+            <state relative-caret-position="-1060">
+              <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/publicView/routes.js">
+      <file leaf-file-name="Accounts.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/Accounts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="memberProfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/Accounts/pages/memberProfiles/memberProfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyProfile.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/Accounts/pages/MyProfiles/MyProfile.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyProfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/Accounts/pages/MyProfiles/MyProfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="oneToOneChat.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/chatApp/oneToOneChat.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+            <state relative-caret-position="539">
+              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -174,43 +296,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/client/Accounts/layouts/M_master_layout.html" />
-        <option value="$PROJECT_DIR$/server/Accounts.js" />
-        <option value="$PROJECT_DIR$/client/Accounts/Accounts.js" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/client/main.html" />
-        <option value="$PROJECT_DIR$/client/main.js" />
-        <option value="$PROJECT_DIR$/client/publicView/templates/master.html" />
-        <option value="$PROJECT_DIR$/client/Accounts/layouts/M_layoutscript.js" />
-        <option value="$PROJECT_DIR$/.meteor/packages" />
-        <option value="$PROJECT_DIR$/client/chatApp/index.js" />
-        <option value="$PROJECT_DIR$/client/chatApp/index.html" />
-        <option value="$PROJECT_DIR$/collections/chats.js" />
-        <option value="$PROJECT_DIR$/client/chatApp/hook/sidebar.html" />
-        <option value="$PROJECT_DIR$/client/chatApp/hook/navbar.html" />
-        <option value="$PROJECT_DIR$/client/chatApp/hook/navbar.js" />
-        <option value="$PROJECT_DIR$/collections/schedules.js" />
-        <option value="$PROJECT_DIR$/server/UnitTests/userManagement.test.js" />
-        <option value="$PROJECT_DIR$/client/publicView/trainer/Trainer.js" />
-        <option value="$PROJECT_DIR$/client/publicView/trainer/Trainers.html" />
-        <option value="$PROJECT_DIR$/client/publicView/templates/banners/default.html" />
-        <option value="$PROJECT_DIR$/client/publicView/trainer/Trainers.js" />
-        <option value="$PROJECT_DIR$/client/publicView/trainer/TrainersIndex.html" />
-        <option value="$PROJECT_DIR$/client/publicView/classes/class.js" />
-        <option value="$PROJECT_DIR$/client/Accounts/pages/FitnessClasses/NewFitnessClass.html" />
-        <option value="$PROJECT_DIR$/client/Accounts/pages/FitnessClasses/NewFitnessClass.js" />
-        <option value="$PROJECT_DIR$/client/Accounts/partials/AdminM_side_bar.html" />
-        <option value="$PROJECT_DIR$/client/Accounts/partials/officer_side_bar.html" />
-        <option value="$PROJECT_DIR$/client/Accounts/partials/trainer_side_bar.html" />
-        <option value="$PROJECT_DIR$/client/Accounts/pages/FitnessClasses/FitnessClasses.js" />
-        <option value="$PROJECT_DIR$/client/publicView/templates/banners/ClassDefault.html" />
-        <option value="$PROJECT_DIR$/client/publicView/classes/classesIndex.html" />
-        <option value="$PROJECT_DIR$/client/publicView/classes/classes.js" />
-        <option value="$PROJECT_DIR$/client/publicView/classes/classes.html" />
-        <option value="$PROJECT_DIR$/client/publicView/trainer/Trainer.html" />
-        <option value="$PROJECT_DIR$/client/publicView/classes/class.html" />
-        <option value="$PROJECT_DIR$/client/Accounts/pages/FitnessClasses/FitnessClasses.html" />
-        <option value="$PROJECT_DIR$/collections/classes.js" />
         <option value="$PROJECT_DIR$/client/Accounts/pages/FitnessClasses/FitnessClass.html" />
         <option value="$PROJECT_DIR$/client/Accounts/pages/FitnessClasses/FitnessClass.js" />
         <option value="$PROJECT_DIR$/client/Accounts/member/SideNav.html" />
@@ -218,13 +303,50 @@
         <option value="$PROJECT_DIR$/chatControllers/chatController.js" />
         <option value="$PROJECT_DIR$/client/chatApp/oneToOneChat.html" />
         <option value="$PROJECT_DIR$/.meteor/local/build/programs/server/profile.js" />
-        <option value="$PROJECT_DIR$/lib/publicView/routes.js" />
         <option value="$PROJECT_DIR$/client/chatApp/chatToMember.html" />
         <option value="$PROJECT_DIR$/client/chatApp/oneToOneChat.js" />
-        <option value="$PROJECT_DIR$/server/publish.js" />
         <option value="$PROJECT_DIR$/lib/chatControllers/oneToOneChatController.js" />
         <option value="$PROJECT_DIR$/collections/oneToOneChats.js" />
         <option value="$PROJECT_DIR$/client/chatApp/chatToMember.js" />
+        <option value="$PROJECT_DIR$/client/chatApp/hook/navbar.html" />
+        <option value="$PROJECT_DIR$/client/Reports/chartjs.html" />
+        <option value="$PROJECT_DIR$/client/Reports/pieChart.js" />
+        <option value="$PROJECT_DIR$/client/Reports/columnDemo.html" />
+        <option value="$PROJECT_DIR$/client/Reports/pieChart.html" />
+        <option value="$PROJECT_DIR$/client/Reports/funnelDemo.html" />
+        <option value="$PROJECT_DIR$/client/Reports/funnelDemo.js" />
+        <option value="$PROJECT_DIR$/public/dist/js/charts.js" />
+        <option value="$PROJECT_DIR$/client/Reports/morris.html" />
+        <option value="$PROJECT_DIR$/public/charts/jquery-2.2.3.js" />
+        <option value="$PROJECT_DIR$/client/Accounts/pages/memberFeedback/NewSchedule.html" />
+        <option value="$PROJECT_DIR$/client/Accounts/pages/memberFeedback/NewMemberFeedback.js" />
+        <option value="$PROJECT_DIR$/client/Accounts/pages/memberFeedback/NewMemberFeedback.html" />
+        <option value="$PROJECT_DIR$/client/Accounts/pages/memberFeedback/MemberFeedbacks.html" />
+        <option value="$PROJECT_DIR$/client/Accounts/pages/memberFeedback/MemberFeedback.js" />
+        <option value="$PROJECT_DIR$/client/Accounts/pages/memberFeedback/MemberFeedback.html" />
+        <option value="$PROJECT_DIR$/collections/classes.js" />
+        <option value="$PROJECT_DIR$/collections/memberFeedback.js" />
+        <option value="$PROJECT_DIR$/client/Accounts/pages/memberFeedback/MemberFeedbacks.js" />
+        <option value="$PROJECT_DIR$/settings-development.json" />
+        <option value="$PROJECT_DIR$/server/stripe/stripe.js" />
+        <option value="$PROJECT_DIR$/client/services/services.js" />
+        <option value="$PROJECT_DIR$/client/services/index.html" />
+        <option value="$PROJECT_DIR$/client/main.html" />
+        <option value="$PROJECT_DIR$/client/services/try2.html" />
+        <option value="$PROJECT_DIR$/client/services/try.html" />
+        <option value="$PROJECT_DIR$/client/services/services.html" />
+        <option value="$PROJECT_DIR$/client/Accounts/pages/saleItems/saleItems.html" />
+        <option value="$PROJECT_DIR$/client/Accounts/pages/saleItems/NewSaleItem.js" />
+        <option value="$PROJECT_DIR$/client/Accounts/partials/AdminM_side_bar.html" />
+        <option value="$PROJECT_DIR$/lib/publicView/routes.js" />
+        <option value="$PROJECT_DIR$/server/publish.js" />
+        <option value="$PROJECT_DIR$/client/Accounts/pages/saleItems/saleItems.js" />
+        <option value="$PROJECT_DIR$/client/Accounts/pages/saleItems/NewSaleItem.html" />
+        <option value="$PROJECT_DIR$/collections/productImages/ImagesFs.js" />
+        <option value="$PROJECT_DIR$/server/Accounts.js" />
+        <option value="$PROJECT_DIR$/collections/saleItems.js" />
+        <option value="$PROJECT_DIR$/client/Accounts/pages/saleItems/SaleItem.js" />
+        <option value="$PROJECT_DIR$/client/Accounts/pages/saleItems/SaleItem.html" />
       </list>
     </option>
   </component>
@@ -270,8 +392,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -279,10 +399,6 @@
               <option name="myItemId" value="GymManager" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -291,139 +407,13 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="GymManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GymManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GymManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GymManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GymManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GymManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GymManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chatControllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GymManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GymManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collections" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GymManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GymManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GymManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GymManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chatApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GymManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GymManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chatApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GymManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GymManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chatControllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -437,22 +427,22 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
-    <property name="SearchEverywhereHistoryKey" value="rou&#9;FILE&#9;file://E:/Semester/SE project/BrothersGym/GymManager/lib/publicView/routes.js&#10;side&#9;FILE&#9;file://E:/Semester/SE project/BrothersGym/GymManager/client/Accounts/partials/AdminM_side_bar.html&#10;edit&#9;FILE&#9;file://E:/Semester/SE project/BrothersGym/GymManager/client/Accounts/pages/users/EditUser.js&#10;rout&#9;FILE&#9;file://D:/Semester/SE project/BrothersGym/GymManager/lib/publicView/routes.js&#10;accounts config&#9;null&#9;null&#10;route&#9;FILE&#9;file://D:/Semester/SE project/BrothersGym/GymManager/lib/publicView/routes.js&#10;member&#9;FILE&#9;file://D:/Semester/SE project/BrothersGym/GymManager/client/Accounts/member/MyMemberProfile.html&#10;meteor t&#9;null&#9;null&#10;loginButtons.&#9;FILE&#9;file://C:/Users/Dileka/AppData/Local/.meteor/packages/accounts-ui-unstyled/1.1.12/web.browser/login_buttons.js&#10;loginb&#9;FILE&#9;file://C:/Users/Dileka/AppData/Local/.meteor/packages/accounts-ui-unstyled/1.1.12/web.browser/login_buttons.js" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/Semester/SE project/BrothersGym/GymManager/client/Accounts/pages/saleItems/saleItems.js&#10;routes&#9;FILE&#9;file://E:/Semester/SE project/BrothersGym/GymManager/lib/publicView/routes.js&#10;rout&#9;FILE&#9;file://E:/Semester/SE project/BrothersGym/GymManager/lib/publicView/routes.js&#10;feed&#9;FILE&#9;file://E:/Semester/SE project/BrothersGym/GymManager/collections/memberFeedback.js&#10;rou&#9;FILE&#9;file://E:/Semester/SE project/BrothersGym/GymManager/lib/publicView/routes.js&#10;side&#9;FILE&#9;file://E:/Semester/SE project/BrothersGym/GymManager/client/Accounts/partials/AdminM_side_bar.html&#10;edit&#9;FILE&#9;file://E:/Semester/SE project/BrothersGym/GymManager/client/Accounts/pages/users/EditUser.js&#10;accounts config&#9;null&#9;null&#10;route&#9;FILE&#9;file://D:/Semester/SE project/BrothersGym/GymManager/lib/publicView/routes.js&#10;member&#9;FILE&#9;file://D:/Semester/SE project/BrothersGym/GymManager/client/Accounts/member/MyMemberProfile.html&#10;meteor t&#9;null&#9;null&#10;loginButtons.&#9;FILE&#9;file://C:/Users/Dileka/AppData/Local/.meteor/packages/accounts-ui-unstyled/1.1.12/web.browser/login_buttons.js&#10;loginb&#9;FILE&#9;file://C:/Users/Dileka/AppData/Local/.meteor/packages/accounts-ui-unstyled/1.1.12/web.browser/login_buttons.js" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Semester\SE project\BrothersGym\GymManager\client\services" />
+      <recent name="E:\Semester\SE project\BrothersGym\GymManager\public\images\supplements" />
+      <recent name="E:\Semester\SE project\BrothersGym\GymManager\client\Reports" />
       <recent name="E:\Semester\SE project\BrothersGym\GymManager" />
       <recent name="D:\Semester\SE project\BrothersGym\GymManager\client\Accounts\member" />
-      <recent name="D:\Semester\SE project\BrothersGym\GymManager\client\Accounts\pages\Test" />
-      <recent name="D:\Semester\SE project\BrothersGym\GymManager\client\Accounts\pages" />
-      <recent name="D:\Semester\SE project\BrothersGym\GymManager\client\Accounts\pages\memberProfiles" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Semester\SE project\BrothersGym\GymManager" />
-      <recent name="D:\Semester\SE project\BrothersGym\GymManager\client\Accounts\partials" />
-      <recent name="D:\Semester\SE project\BrothersGym\GymManager\client\Accounts\pages" />
-      <recent name="D:\Semester\SE project\BrothersGym\GymManager\client\Accounts\pages\MyProfiles" />
-      <recent name="D:\Semester\SE project\BrothersGym\GymManager\client\Accounts\pages\memberPayments" />
+      <recent name="E:\Semester\SE project\BrothersGym\GymManager\public\fonts" />
+      <recent name="E:\Semester\SE project\BrothersGym\GymManager\public\services" />
+      <recent name="E:\Semester\SE project\BrothersGym\GymManager\public\img" />
+      <recent name="E:\Semester\SE project\BrothersGym\GymManager\client\Accounts\pages\memberFeedback" />
+      <recent name="E:\Semester\SE project\BrothersGym\GymManager\public\charts" />
     </key>
   </component>
   <component name="RunManager">
@@ -558,7 +548,9 @@
       <workItem from="1491248246590" duration="1163000" />
       <workItem from="1491256158817" duration="1221000" />
       <workItem from="1491330997588" duration="324000" />
-      <workItem from="1491618791999" duration="39327000" />
+      <workItem from="1491618791999" duration="39888000" />
+      <workItem from="1491789913504" duration="35984000" />
+      <workItem from="1491965770632" duration="27171000" />
     </task>
     <task id="LOCAL-00001" summary="member attendances">
       <created>1490462715090</created>
@@ -581,17 +573,24 @@
       <option name="project" value="LOCAL" />
       <updated>1491743863739</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="chat app">
+      <created>1491762712575</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1491762712575</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="528735000" />
+    <option name="totallyTimeSpent" value="592451000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2203514" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21815519" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -620,7 +619,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17134416" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21815519" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -655,139 +654,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/publicView/trainer/Trainers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/publicView/classes/classes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/publicView/classes/classes.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/a2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/about_img4.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/trainer1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/class1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/publicView/trainer/Trainer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/publicView/classes/class.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/FitnessClasses/FitnessClasses.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/collections/classes.js" />
-    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/memberPayments/MemberPayment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/memberPayments/MemberPayment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/UnitTests/userManagement.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/Accounts/member/SideNav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/FitnessClasses/FitnessClasses.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="41" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/FitnessClasses/FitnessClass.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/FitnessClasses/FitnessClass.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.meteor/packages">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="57" column="15" selection-start-line="57" selection-start-column="15" selection-end-line="57" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chatControllers/chatController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-499">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/chatApp/hook/navbar.html">
+    <entry file="file://$PROJECT_DIR$/public/charts/morris.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -795,149 +662,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/chatApp/hook/navbar.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/chatApp/hook/sidebar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1141">
-          <caret line="90" column="31" selection-start-line="90" selection-start-column="30" selection-end-line="90" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/chatApp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13">
-          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/chatApp/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/Accounts/partials/AdminM_side_bar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/collections/myProfiles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/users/EditUser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/memberProfiles/memberProfiles.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/memberProfiles/NewMemberProfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.meteor/local/build/programs/server/profile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="499" column="18" selection-start-line="499" selection-start-column="18" selection-end-line="499" selection-end-column="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.meteor/local/build/server/.bundle_version.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/schedules/Schedule.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/schedules/Schedule.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/schedules/Schedules.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/schedules/Schedules.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/collections/chats.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/chatApp/chatToMember.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/chatApp/oneToOneChat.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -945,96 +673,383 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/memberProfiles/memberProfile.html">
+    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/memberPayments/NewMemberPayment.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/memberProfiles/memberProfile.js">
+    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/memberPayments/NewMemberPayment.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/memberFeedback/NewMemberFeedback.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/memberFeedback/NewMemberFeedback.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/memberFeedback/MemberFeedback.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/memberFeedback/MemberFeedback.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collections/classes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/MyProfiles/MyProfile.html">
+    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/memberFeedback/MemberFeedbacks.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/MyProfiles/MyProfile.js">
+    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/memberFeedback/MemberFeedbacks.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        <state relative-caret-position="204">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/chatApp/oneToOneChat.js">
+    <entry file="file://$PROJECT_DIR$/settings-development.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+        <state relative-caret-position="34">
+          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/chatControllers/chatController.js">
+    <entry file="file://$PROJECT_DIR$/server/stripe/stripe.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/publish.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/collections/oneToOneChats.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="75" column="3" selection-start-line="75" selection-start-column="3" selection-end-line="75" selection-end-column="3" />
+        <state relative-caret-position="459">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <element signature="e#42#181#0" expanded="false" />
+            <element signature="e#0#42#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/chatApp/chatToMember.js">
+    <entry file="file://$PROJECT_DIR$/client/Accounts/layouts/M_login_layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/chatControllers/oneToOneChatController.js">
+    <entry file="file://$PROJECT_DIR$/client/Accounts/layouts/M_layoutscript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="86" column="46" selection-start-line="86" selection-start-column="46" selection-end-line="86" selection-end-column="46" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/services/bxslider.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/services/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/services/owl.carousel.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/services/responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/services/script.slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/services/ucommerce-screen.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/services/ustora.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/services/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1167">
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/services/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/services/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/services/try2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-160">
+          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <folding>
+            <element signature="e#26711#26717#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/services/try.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="58" column="34" selection-start-line="44" selection-start-column="28" selection-end-line="58" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/services/services.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="110" selection-start-line="11" selection-start-column="110" selection-end-line="11" selection-end-column="110" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collections/memberPayments.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-307">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collections/recipes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="78" column="35" selection-start-line="64" selection-start-column="0" selection-end-line="78" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/schedules/Schedules.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/schedules/Schedules.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/schedules/Schedule.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="14" selection-start-line="1" selection-start-column="3" selection-end-line="28" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/schedules/Schedule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/schedules/NewSchedule.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="10" selection-start-line="5" selection-start-column="3" selection-end-line="8" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/schedules/NewSchedule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Accounts/partials/AdminM_side_bar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/publicView/routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="432">
+          <caret line="309" column="9" selection-start-line="309" selection-start-column="9" selection-end-line="309" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/saleItems/NewSaleItem.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/saleItems/NewSaleItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collections/productImages/ImagesFs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/Accounts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/publish.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collections/memberFeedback.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1060">
+          <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collections/saleItems.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="105" column="9" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/saleItems/saleItems.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/saleItems/saleItems.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/saleItems/SaleItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="8" selection-start-line="18" selection-start-column="3" selection-end-line="22" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/saleItems/SaleItem.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>

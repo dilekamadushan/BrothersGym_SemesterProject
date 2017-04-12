@@ -1,0 +1,20 @@
+<template name="SaleItems">
+    <h1>Sale Items</h1> <br>
+    {{#if $.Session.get 'newSaleItem'}}
+        {{> NewSaleItem}}
+    {{else}}
+
+        <button class="new-recipe">New Sale Item</button>
+
+    {{/if}}
+
+    <section class="recipes">
+        {{#if Template.subscriptionsReady}}
+            {{#each saleItems}}
+                {{> SaleItem}}
+            {{/each}}
+        {{else}}
+            <p>Loading</p>
+        {{/if}}
+    </section>
+</template>

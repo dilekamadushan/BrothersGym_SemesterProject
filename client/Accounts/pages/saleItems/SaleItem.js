@@ -16,11 +16,11 @@ Template.SaleItem.helpers({
     editMorde: function(){
         return Template.instance().editMode.get();
     },
-    // images:function () {
-    //     return Images.find({_id:this.fileId})
-    //
-    //
-    // }
+    images:function () {
+        return Images.find({_id:this.fileId})
+
+
+    }
 
 });
 

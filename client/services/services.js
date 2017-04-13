@@ -33,12 +33,23 @@ Template.services.onCreated( () => {
     });
 });
 
+Template.services.onCreated(function () {
+    var self = this;
+    self.autorun(function () {
+        self.subscribe('saleItems');
+        self.subscribe('images');
+    });
+});
+
 Template.services.helpers({
     processing() {
         return Template.instance().processing.get();
     },
     paymentSucceeded() {
         return Template.instance().paymentSucceeded.get();
+    },
+    fitnessProducts(){
+        return SaleItems.find({});
     }
 });
 

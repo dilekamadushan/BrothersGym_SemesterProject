@@ -2,135 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="891b5182-5cbe-4700-9598-bedd3ec8b3ba" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/supplements/download.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/brand1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/brand2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/brand3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/brand4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/brand5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/brand6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/crossword.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/h4-slide.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/h4-slide2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/h4-slide3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/h4-slide4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/h4-slide7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/product-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/product-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/product-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/product-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/product-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/product-6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/product-thumb-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/product-thumb-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/product-thumb-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/product-thumb-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/services/ucommerce-screen.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/services/ustora.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/Accounts/pages/memberFeedback/MemberFeedback.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/Accounts/pages/memberFeedback/MemberFeedback.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/Accounts/pages/memberFeedback/MemberFeedbacks.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/Accounts/pages/memberFeedback/MemberFeedbacks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/Accounts/pages/memberFeedback/NewMemberFeedback.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/Accounts/pages/memberFeedback/NewMemberFeedback.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/Accounts/pages/saleItems/NewSaleItem.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/Accounts/pages/saleItems/NewSaleItem.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/Accounts/pages/saleItems/SaleItem.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/Accounts/pages/saleItems/SaleItem.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/Accounts/pages/saleItems/saleItems.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/Accounts/pages/saleItems/saleItems.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/Reports/chartjs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/Reports/columnDemo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/Reports/columnDemo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/Reports/funnelDemo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/Reports/funnelDemo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/Reports/morris.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/Reports/pieChart.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/services/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/services/services.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/services/services.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/services/try.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/services/try2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collections/memberFeedback.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collections/productImages/ImagesFs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collections/saleItems.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/AdminLTE.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/AdminLTE.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/_all-skins.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/_all-skins.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/app.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/dashboard.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/dashboard2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/demo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/fastclick.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/fastclick.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/jquery-2.2.3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/morris.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/morris.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/morris.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-black-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-black-light.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-black.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-black.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-blue-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-blue-light.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-blue.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-blue.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-green-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-green-light.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-green.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-green.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-purple-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-purple-light.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-purple.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-purple.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-red-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-red-light.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-red.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-red.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-yellow-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-yellow-light.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-yellow.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/charts/skin-yellow.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/js/charts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/services/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/services/bxslider.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/services/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/services/jquery.easing.1.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/services/jquery.sticky.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/services/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/services/owl.carousel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/services/owl.carousel.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/services/responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/services/script.slider.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/services/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/stripe/stripe.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/settings-development.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chatControllers/chatController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/styles.styl" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_npm.xml" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_npm.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/packages" afterPath="$PROJECT_DIR$/.meteor/packages" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/versions" afterPath="$PROJECT_DIR$/.meteor/versions" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/Accounts/partials/AdminM_side_bar.html" afterPath="$PROJECT_DIR$/client/Accounts/partials/AdminM_side_bar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/main.html" afterPath="$PROJECT_DIR$/client/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/publicView/routes.js" afterPath="$PROJECT_DIR$/lib/publicView/routes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/Accounts.js" afterPath="$PROJECT_DIR$/server/Accounts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/publish.js" afterPath="$PROJECT_DIR$/server/publish.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/Accounts/pages/saleItems/SaleItem.html" afterPath="$PROJECT_DIR$/client/Accounts/pages/saleItems/SaleItem.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/Accounts/pages/saleItems/SaleItem.js" afterPath="$PROJECT_DIR$/client/Accounts/pages/saleItems/SaleItem.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/services/services.html" afterPath="$PROJECT_DIR$/client/services/services.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/services/services.js" afterPath="$PROJECT_DIR$/client/services/services.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -151,16 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="publish.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/publish.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="saleItems.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/Accounts/pages/saleItems/saleItems.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -174,80 +40,90 @@
       <file leaf-file-name="saleItems.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/Accounts/pages/saleItems/saleItems.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="33" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="33" />
+            <state relative-caret-position="136">
+              <caret line="8" column="3" selection-start-line="2" selection-start-column="0" selection-end-line="8" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewSaleItem.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/Accounts/pages/saleItems/NewSaleItem.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/services/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SaleItem.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="services.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/services/services.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SaleItem.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/Accounts/pages/saleItems/SaleItem.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SaleItem.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/Accounts/pages/saleItems/SaleItem.js">
+      <file leaf-file-name="try.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/services/try.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="8" selection-start-line="18" selection-start-column="3" selection-end-line="22" selection-end-column="8" />
+            <state relative-caret-position="748">
+              <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="saleItems.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/collections/saleItems.js">
+      <file leaf-file-name="try2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/services/try2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1785">
-              <caret line="105" column="9" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
+            <state relative-caret-position="0">
+              <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/services/services.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stripe.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/stripe/stripe.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#0#42#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImagesFs.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/collections/productImages/ImagesFs.js">
+      <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/publicView/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="memberFeedback.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/collections/memberFeedback.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1060">
-              <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Accounts.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/Accounts.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="816">
+              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -329,12 +205,10 @@
         <option value="$PROJECT_DIR$/client/Accounts/pages/memberFeedback/MemberFeedbacks.js" />
         <option value="$PROJECT_DIR$/settings-development.json" />
         <option value="$PROJECT_DIR$/server/stripe/stripe.js" />
-        <option value="$PROJECT_DIR$/client/services/services.js" />
         <option value="$PROJECT_DIR$/client/services/index.html" />
         <option value="$PROJECT_DIR$/client/main.html" />
         <option value="$PROJECT_DIR$/client/services/try2.html" />
         <option value="$PROJECT_DIR$/client/services/try.html" />
-        <option value="$PROJECT_DIR$/client/services/services.html" />
         <option value="$PROJECT_DIR$/client/Accounts/pages/saleItems/saleItems.html" />
         <option value="$PROJECT_DIR$/client/Accounts/pages/saleItems/NewSaleItem.js" />
         <option value="$PROJECT_DIR$/client/Accounts/partials/AdminM_side_bar.html" />
@@ -347,6 +221,8 @@
         <option value="$PROJECT_DIR$/collections/saleItems.js" />
         <option value="$PROJECT_DIR$/client/Accounts/pages/saleItems/SaleItem.js" />
         <option value="$PROJECT_DIR$/client/Accounts/pages/saleItems/SaleItem.html" />
+        <option value="$PROJECT_DIR$/client/services/services.js" />
+        <option value="$PROJECT_DIR$/client/services/services.html" />
       </list>
     </option>
   </component>
@@ -392,6 +268,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -410,10 +287,73 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GymManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GymManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GymManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GymManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stripe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GymManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GymManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GymManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GymManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -427,7 +367,7 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/Semester/SE project/BrothersGym/GymManager/client/Accounts/pages/saleItems/saleItems.js&#10;routes&#9;FILE&#9;file://E:/Semester/SE project/BrothersGym/GymManager/lib/publicView/routes.js&#10;rout&#9;FILE&#9;file://E:/Semester/SE project/BrothersGym/GymManager/lib/publicView/routes.js&#10;feed&#9;FILE&#9;file://E:/Semester/SE project/BrothersGym/GymManager/collections/memberFeedback.js&#10;rou&#9;FILE&#9;file://E:/Semester/SE project/BrothersGym/GymManager/lib/publicView/routes.js&#10;side&#9;FILE&#9;file://E:/Semester/SE project/BrothersGym/GymManager/client/Accounts/partials/AdminM_side_bar.html&#10;edit&#9;FILE&#9;file://E:/Semester/SE project/BrothersGym/GymManager/client/Accounts/pages/users/EditUser.js&#10;accounts config&#9;null&#9;null&#10;route&#9;FILE&#9;file://D:/Semester/SE project/BrothersGym/GymManager/lib/publicView/routes.js&#10;member&#9;FILE&#9;file://D:/Semester/SE project/BrothersGym/GymManager/client/Accounts/member/MyMemberProfile.html&#10;meteor t&#9;null&#9;null&#10;loginButtons.&#9;FILE&#9;file://C:/Users/Dileka/AppData/Local/.meteor/packages/accounts-ui-unstyled/1.1.12/web.browser/login_buttons.js&#10;loginb&#9;FILE&#9;file://C:/Users/Dileka/AppData/Local/.meteor/packages/accounts-ui-unstyled/1.1.12/web.browser/login_buttons.js" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/Semester/SE project/BrothersGym/GymManager/client/Accounts/pages/saleItems/SaleItem.html&#10;rout&#9;FILE&#9;file://E:/Semester/SE project/BrothersGym/GymManager/lib/publicView/routes.js&#10;serv&#9;FILE&#9;file://E:/Semester/SE project/BrothersGym/GymManager/client/services/services.js&#10;routes&#9;FILE&#9;file://E:/Semester/SE project/BrothersGym/GymManager/lib/publicView/routes.js&#10;feed&#9;FILE&#9;file://E:/Semester/SE project/BrothersGym/GymManager/collections/memberFeedback.js&#10;rou&#9;FILE&#9;file://E:/Semester/SE project/BrothersGym/GymManager/lib/publicView/routes.js&#10;side&#9;FILE&#9;file://E:/Semester/SE project/BrothersGym/GymManager/client/Accounts/partials/AdminM_side_bar.html&#10;edit&#9;FILE&#9;file://E:/Semester/SE project/BrothersGym/GymManager/client/Accounts/pages/users/EditUser.js&#10;accounts config&#9;null&#9;null&#10;route&#9;FILE&#9;file://D:/Semester/SE project/BrothersGym/GymManager/lib/publicView/routes.js&#10;member&#9;FILE&#9;file://D:/Semester/SE project/BrothersGym/GymManager/client/Accounts/member/MyMemberProfile.html&#10;meteor t&#9;null&#9;null&#10;loginButtons.&#9;FILE&#9;file://C:/Users/Dileka/AppData/Local/.meteor/packages/accounts-ui-unstyled/1.1.12/web.browser/login_buttons.js&#10;loginb&#9;FILE&#9;file://C:/Users/Dileka/AppData/Local/.meteor/packages/accounts-ui-unstyled/1.1.12/web.browser/login_buttons.js" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -550,7 +490,9 @@
       <workItem from="1491330997588" duration="324000" />
       <workItem from="1491618791999" duration="39888000" />
       <workItem from="1491789913504" duration="35984000" />
-      <workItem from="1491965770632" duration="27171000" />
+      <workItem from="1491965770632" duration="30174000" />
+      <workItem from="1492058843967" duration="10126000" />
+      <workItem from="1492088193642" duration="2817000" />
     </task>
     <task id="LOCAL-00001" summary="member attendances">
       <created>1490462715090</created>
@@ -580,14 +522,21 @@
       <option name="project" value="LOCAL" />
       <updated>1491762712575</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="sales products">
+      <created>1492019838471</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1492019838471</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="592451000" />
+    <option name="totallyTimeSpent" value="608397000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21815519" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -645,7 +594,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="member attendances" />
     <MESSAGE value="chat app" />
-    <option name="LAST_COMMIT_MESSAGE" value="chat app" />
+    <MESSAGE value="sales products" />
+    <option name="LAST_COMMIT_MESSAGE" value="sales products" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -658,7 +608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -722,7 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -730,7 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -738,7 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -746,17 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/stripe/stripe.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -764,7 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -772,7 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -780,7 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -788,7 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -796,7 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -804,7 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -812,7 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -830,7 +758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -838,6 +765,178 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1167">
           <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collections/memberPayments.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-307">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collections/recipes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="78" column="35" selection-start-line="64" selection-start-column="0" selection-end-line="78" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/schedules/Schedules.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/schedules/Schedules.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/schedules/Schedule.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="14" selection-start-line="1" selection-start-column="3" selection-end-line="28" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/schedules/Schedule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/schedules/NewSchedule.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="10" selection-start-line="5" selection-start-column="3" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/schedules/NewSchedule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Accounts/partials/AdminM_side_bar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/saleItems/NewSaleItem.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/saleItems/NewSaleItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/Accounts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/publish.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collections/memberFeedback.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/saleItems/SaleItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collections/productImages/ImagesFs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collections/saleItems.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="96" column="20" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/saleItems/saleItems.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/services/try.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/services/try2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/publicView/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/stripe/stripe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/saleItems/SaleItem.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -850,206 +949,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/services/services.js">
+    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/saleItems/saleItems.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
+        <state relative-caret-position="136">
+          <caret line="8" column="3" selection-start-line="2" selection-start-column="0" selection-end-line="8" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/services/try2.html">
+    <entry file="file://$PROJECT_DIR$/client/services/services.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-160">
-          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-          <folding>
-            <element signature="e#26711#26717#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/services/try.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="58" column="34" selection-start-line="44" selection-start-column="28" selection-end-line="58" selection-end-column="34" />
+        <state relative-caret-position="424">
+          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/services/services.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="110" selection-start-line="11" selection-start-column="110" selection-end-line="11" selection-end-column="110" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/collections/memberPayments.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-307">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/collections/recipes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="78" column="35" selection-start-line="64" selection-start-column="0" selection-end-line="78" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/schedules/Schedules.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/schedules/Schedules.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/schedules/Schedule.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="14" selection-start-line="1" selection-start-column="3" selection-end-line="28" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/schedules/Schedule.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/schedules/NewSchedule.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="10" selection-start-line="5" selection-start-column="3" selection-end-line="8" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/schedules/NewSchedule.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/Accounts/partials/AdminM_side_bar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/publicView/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="309" column="9" selection-start-line="309" selection-start-column="9" selection-end-line="309" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/saleItems/NewSaleItem.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/saleItems/NewSaleItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/collections/productImages/ImagesFs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/Accounts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/publish.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/collections/memberFeedback.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1060">
-          <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/collections/saleItems.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="105" column="9" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/saleItems/saleItems.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/saleItems/saleItems.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/saleItems/SaleItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="8" selection-start-line="18" selection-start-column="3" selection-end-line="22" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/Accounts/pages/saleItems/SaleItem.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="140">
+          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
           <folding />
         </state>
       </provider>

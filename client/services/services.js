@@ -21,9 +21,9 @@ Template.services.onCreated( () => {
             Meteor.call( 'processPayment', charge, ( error, response ) => {
                 if ( error ) {
                     template.processing.set( false );
-                    Bert.alert( error.reason, 'danger' );
+                    //Bert.alert( error.reason, 'danger' );
                 } else {
-                    Bert.alert( 'Thanks! You\'ll be ghost free soon :)', 'success' );
+                    //Bert.alert( 'Thanks! You\'ll be ghost free soon :)', 'success' );
                 }
             });
         },
@@ -54,32 +54,32 @@ Template.services.helpers({
 });
 
 Template.services.events({
-    'click [data-service]' ( event, template ) {
-        const pricing = {
-            'full-torso-apparition': {
-                amount: 300000,
-                description: "Full Torso Apparition Removal"
-            },
-            'free-floating-repeater': {
-                amount: 425000,
-                description: "Free-Floating Repeater Removal"
-            },
-            'full-roaming-vapor': {
-                amount: 500000,
-                description: "Full Roaming Vapor Removal"
-            }
-        };
-
-        let service = pricing[ event.target.dataset.service ];
-
-        template.selectedService.set( service );
-        template.processing.set( true );
-
-        template.checkout.open({
-            name: 'Ghostbusting Service',
-            description: service.description,
-            amount: service.amount,
-            bitcoin: true
-        });
-    }
+    // 'click [data-service]' ( event, template ) {
+    //     const pricing = {
+    //         'full-torso-apparition': {
+    //             amount: 300000,
+    //             description: "Full Torso Apparition Removal"
+    //         },
+    //         'free-floating-repeater': {
+    //             amount: 425000,
+    //             description: "Free-Floating Repeater Removal"
+    //         },
+    //         'full-roaming-vapor': {
+    //             amount: 500000,
+    //             description: "Full Roaming Vapor Removal"
+    //         }
+    //     };
+    //
+    //     let service = pricing[ event.target.dataset.service ];
+    //
+    //     template.selectedService.set( service );
+    //     template.processing.set( true );
+    //
+    //     template.checkout.open({
+    //         name: 'Ghostbusting Service',
+    //         description: service.description,
+    //         amount: service.amount,
+    //         bitcoin: true
+    //     });
+    // }
 });

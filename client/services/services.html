@@ -7,20 +7,6 @@
             {{#unless processing}}
                 <p class="alert alert-info">We offer the following paranormal elimination services:</p>
 
-                <!--<ul class="list-group price-list">-->
-                    <!--<li class="list-group-item clearfix">-->
-                        <!--<p class="pull-left"><strong>$3,000</strong> &mdash; Full Torso Apparition Removal</p>-->
-                        <!--<a href="#" data-service="full-torso-apparition" class="btn btn-success pull-right">Buy Now</a>-->
-                    <!--</li>-->
-                    <!--<li class="list-group-item clearfix">-->
-                        <!--<p class="pull-left"><strong>$4,250</strong> &mdash; Free-Floating Repeater Removal</p>-->
-                        <!--<a href="#" data-service="free-floating-repeater" class="btn btn-success pull-right">Buy Now</a>-->
-                    <!--</li>-->
-                    <!--<li class="list-group-item clearfix">-->
-                        <!--<p class="pull-left"><strong>$5,000</strong> &mdash; Full Roaming Vapor Removal</p>-->
-                        <!--<a href="#" data-service="full-roaming-vapor" class="btn btn-success pull-right">Buy Now</a>-->
-                    <!--</li>-->
-                <!--</ul>-->
                 <div class="single-product col-md-6">
                     <div class="product-f-image col-md-6">
                         <img   src="img/product-1.jpg" alt="">
@@ -37,25 +23,10 @@
                     </div>
                 </div>
                 {{#each fitnessProducts}}
-                    <div>
-                        <div class="single-product col-md-6">
-                            <div class="product-f-image col-md-6">
-                                <img   src="img/product-1.jpg" alt="">
-                                <div class="product-hover">
-                                    <a href="#"  data-service="full-roaming-vapor" class="add-to-cart-link "><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                    <a href="" class="view-details-link"><i class="fa fa-link"></i> See details</a>
-                                </div>
-                            </div>
-
-                            <h2><a href="single-product.html">Samsung Galaxy s5- 2015</a></h2>
-
-                            <div class="product-carousel-price">
-                                <ins>$700.00</ins> <del>$100.00</del>
-                            </div>
-                        </div>
-                    </div>
+                    {{> fitnessProduct}}
 
                 {{/each}}
+
 
 
             {{else}}

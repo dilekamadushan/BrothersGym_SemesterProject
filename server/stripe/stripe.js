@@ -18,7 +18,7 @@ Meteor.methods({
                 if ( error ) {
                     return error;
                 } else {
-                    return response;
+                    //return response;
                 }
             });
             //     Meteor.wrapAsync( Stripe.charges.create, Stripe.charges ),

@@ -96,6 +96,17 @@ mySchema = new SimpleSchema({
     name: {
         type: String
     },
+    description:{
+       type: String
+    },
+    price:{
+        type:Number,
+        label: "Price",
+        // autoform: {
+        //     type:number,
+        // }
+
+    },
     fileId: {
         type: String,
         autoform: {

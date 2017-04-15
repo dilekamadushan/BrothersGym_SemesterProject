@@ -1,0 +1,9 @@
+
+{
+  "public": {
+    "rafaelhdr-google-charts": {
+      "packages": ["corechart", "timeline", "gauge", "map"]
+    }
+  }
+}
+

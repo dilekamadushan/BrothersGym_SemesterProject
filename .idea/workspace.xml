@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="891b5182-5cbe-4700-9598-bedd3ec8b3ba" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/Reports/chart2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/Reports/chart2.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/Reports/chartjs.html" afterPath="$PROJECT_DIR$/client/Reports/chartjs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/Reports/chartjs.js" afterPath="$PROJECT_DIR$/client/Reports/chartjs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/main.html" afterPath="$PROJECT_DIR$/client/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/collections/memberPayments.js" afterPath="$PROJECT_DIR$/collections/memberPayments.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/publicView/routes.js" afterPath="$PROJECT_DIR$/lib/publicView/routes.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -94,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/client/Reports/chartjs.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#3;n#template#0;n#!!top" expanded="true" />
               </folding>
@@ -521,7 +514,7 @@
       <workItem from="1492058843967" duration="10126000" />
       <workItem from="1492088193642" duration="10805000" />
       <workItem from="1492153055056" duration="30703000" />
-      <workItem from="1492332537902" duration="9879000" />
+      <workItem from="1492332537902" duration="10004000" />
     </task>
     <task id="LOCAL-00001" summary="member attendances">
       <created>1490462715090</created>
@@ -565,11 +558,18 @@
       <option name="project" value="LOCAL" />
       <updated>1492215519375</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="payments in a month&#10;">
+      <created>1492357189609</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1492357189609</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="656967000" />
+    <option name="totallyTimeSpent" value="657092000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-34" y="10" width="1370" height="744" extended-state="0" />
@@ -632,7 +632,8 @@
     <MESSAGE value="chat app" />
     <MESSAGE value="sales products" />
     <MESSAGE value="records" />
-    <option name="LAST_COMMIT_MESSAGE" value="records" />
+    <MESSAGE value="payments in a month&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="payments in a month&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -973,7 +974,7 @@
     <entry file="file://$PROJECT_DIR$/client/Reports/chartjs.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#3;n#template#0;n#!!top" expanded="true" />
           </folding>

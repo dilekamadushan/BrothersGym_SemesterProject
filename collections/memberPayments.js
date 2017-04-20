@@ -117,12 +117,12 @@ Meteor.methods({
         var start = new Date(2017, 2, 1);
         console.log("here is the start date",start);
 
-        var end = new Date(2010, 2, 30);
+        var end = new Date(2017, 2, 30);
         console.log("here is the end date",end);
 
          let f= MemberPayments.find({createdAt: {$gte: start, $lt: end}}).count();
             g=MemberPayments.find().count();
-        console.log("here is the number",f);
+        console.log("here is the number in collection",f);
 
     return  f;
 

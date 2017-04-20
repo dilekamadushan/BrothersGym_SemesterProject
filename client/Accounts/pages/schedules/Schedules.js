@@ -4,6 +4,7 @@ Template.Schedules.onCreated(function () {
     var self = this;
     self.autorun(function () {
         self.subscribe('schedules');
+        self.subscribe('myProfiles')
     });
 });
 

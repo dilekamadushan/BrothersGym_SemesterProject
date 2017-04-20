@@ -1,10 +1,29 @@
 
 
 Schedules = new Mongo.Collection('schedules');
+// Schedules.before.insert(function (userId, doc) {
+//     let user= Meteor.users.findOne({_id:doc.memberId});
+//
+//    // doc.name = user.profile.firstName;
+//     Schedules.insert({ title: 'Hello world', body: 'First post' });
+// });
 Schedules.before.insert(function (userId, doc) {
-    let user= Meteor.users.findOne({_id:doc.memberId});
-
+    let user = Meteor.users.findOne({_id: doc.memberId});
     doc.name = user.profile.firstName;
+    // Schedules.insert({ title: 'Hello world', body: 'First post' });
+
+
+    myPosts.insert({ title: 'Hello world', body: 'First post' });
+
+});
+ myPosts = new Mongo.Collection('myposts');
+myPosts.allow({
+    insert: function (userId, doc) {
+        return !!userId;
+    },
+    update: function(userId,doc){
+        return !!userId;
+    }
 });
 
 

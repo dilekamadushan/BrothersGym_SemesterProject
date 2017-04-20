@@ -1,4 +1,8 @@
 import {resetDatabase} from 'meteor/xolvio:cleaner';
+import { _ } from 'meteor/underscore';
+import { Template } from 'meteor/templating';
+import { Blaze } from 'meteor/blaze';
+import { Tracker } from 'meteor/tracker';
 
 describe('ExpiryDateCalculation', function () {
     it('method updates the ExpiryDate', function () {
@@ -6,7 +10,7 @@ describe('ExpiryDateCalculation', function () {
             resetDatabase();
         });
 
-        let user = Meteor.users.findOne({_id: "EsukoTLGwnrRCx7js"});
+        let user = Meteor.users.findOne({_id: "kiWHY4pM6hf958SHR"});
 
 
         let memberProfile = MyProfiles.direct.findOne({memberId: user._id});
@@ -34,3 +38,5 @@ describe('ToggleMemberPrescence', function () {
         Meteor.apply('togglePresentMemberAttendance',"EsukoTLGwnrRCx7js",false);
     })
 });
+
+

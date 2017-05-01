@@ -1,4 +1,11 @@
 Template.fitnessProduct.onCreated( () => {
+
+    // var self = this;
+    // self.autorun(function () {
+    //     self.subscribe('saleNotification');
+    // });
+    //
+
     let template = Template.instance();
 
     template.selectedService  = new ReactiveVar( false );
@@ -61,6 +68,8 @@ Template.fitnessProduct.events({
 
        template.selectedService.set( service );
         template.processing.set( true );
+
+        Meteor.call('addNotification', this._id,this.name,this.price);
 
         template.checkout.open({
             name: 'Ghostbusting Service',

@@ -38,6 +38,7 @@ Template.services.onCreated(function () {
     self.autorun(function () {
         self.subscribe('saleItems');
         self.subscribe('images');
+        self.subscribe('saleNotifications');
     });
 });
 

@@ -163,6 +163,36 @@ Meteor.publishComposite('oneToOneChat', function(id1,id2, sort) {
 });
 
 
+Meteor.publish('saleNotifications',function () {
+    return SaleNotifications.find({});
+
+    //
+    // if(Roles.userIsInRole(this.userId,'admin')){
+    //     return MyProfiles.find({});
+    //
+    // }
+    // else if(Roles.userIsInRole(this.userId,'officer')){
+    //     return MyProfiles.find({});
+    //
+    // }
+    // else if(Roles.userIsInRole(this.userId,'trainer')){
+    //     return MyProfiles.find({});
+    //
+    // }
+    // else if(Roles.userIsInRole(this.userId,'member')){
+    //     return MyProfiles.find({memberId:this.userId});
+    //
+    // }
+});
+
+
+
+
+
+
+
+
+
 
 
 

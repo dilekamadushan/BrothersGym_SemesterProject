@@ -216,6 +216,16 @@ Meteor.publish('myProfiles',function () {
 
     }
 });
+Meteor.publish('myProfileSearch', function(query) {
+
+    check(query, String);
+
+    if (_.isEmpty(query))
+        return this.ready();
+
+    return MyProfiles.search(query);
+});
+
 Meteor.publish('chatProfiles',function () {
 
 

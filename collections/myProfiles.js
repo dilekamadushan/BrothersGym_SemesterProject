@@ -3,6 +3,7 @@ MyProfiles.before.insert(function (userId, doc) {
     let user= Meteor.users.findOne({_id:doc.memberId});
 
     doc.name = user.profile.firstName;
+    Meteor.call('addNewMemberNotification',doc._id,doc.name);
 });
 
 
@@ -57,6 +58,16 @@ MyProfileSchema = new SimpleSchema({
             ,
         }
             },
+    picture: {
+        type: String,
+        label: "Picture Link",
+        optional:true,
+        autoform: {
+            //label: false,
+            placeholder: "schemaLabel"
+        },
+
+       },
 
 
     inMenu:{
@@ -140,4 +151,12 @@ Meteor.methods({
 
 });
 
+
+MyProfiles.search = function(query) {
+    return MyProfiles.find({
+        name: { $regex: RegExp.escape(query), $options: 'i' }
+    }, {
+        limit: 20
+    });
+};
 MyProfiles.attachSchema(MyProfileSchema);

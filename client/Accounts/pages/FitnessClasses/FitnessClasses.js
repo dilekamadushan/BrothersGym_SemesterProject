@@ -14,7 +14,7 @@ Template.FitnessClasses.helpers({
 });
 
 Template.FitnessClasses.events({
-    'click .new-FitnessClass': () => {
-        Session.set('new-FitnessClass', true);
+    'click .newFitnessClass': () => {
+        Session.set('newFitnessClass', true);
     }
 })

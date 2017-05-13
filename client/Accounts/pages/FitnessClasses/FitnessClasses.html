@@ -1,5 +1,5 @@
 <template name="FitnessClasses">
-    {{#if $.Session.get 'new-FitnessClass'}}
+    {{#if $.Session.get 'newFitnessClass'}}
 
         {{> NewFitnessClass}}
 
@@ -8,7 +8,7 @@
 
 
         {{#if isInRole 'admin'}}
-            <button class="new-FitnessClass">New Fitness Class</button>
+            <button class="newFitnessClass">New Fitness Class</button>
         {{/if}}
     {{/if}}
 

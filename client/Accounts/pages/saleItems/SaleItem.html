@@ -15,12 +15,9 @@
 
             {{#each images}}
                 <div>
-                    this is image
-                    {{this._id}}
-                    {{this.url}}
+
                     <a href="{{this.url}}" target="_blank"><img src="{{this.url store='images' uploading='/images/uploading.gif' storing='/images/storing.gif'}}" alt="" class="thumbnail" /></a>
-                    <img src="{{this.url store='registrationStorage'}}"  />
-                    <img alt=”{{this.name}}” src=”{{this.url}}”>
+
                 </div>
 
             {{/each}}

@@ -9,9 +9,13 @@ SaleNotifications.allow({
 });
 
 Meteor.methods({
-    addNotification: function(id,name,price){
+    addSaleNotification: function(id,name,price){
         console.log("im in notification")
-        SaleNotifications.insert({ saleItemId: id, payment: name,name: price,buyerId:this.userId});
+        SaleNotifications.insert({ saleItemId: id,type:"Sales", payment: name,name: price,buyerId:this.userId});
     },
+    addNewMemberNotification: function(id,name){
+        console.log("im in member notification")
+        SaleNotifications.insert({ memberId: id,name:name,type:"New Member",author:this.userId, date:new Date()});
+    }
 
 });

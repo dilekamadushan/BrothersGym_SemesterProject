@@ -5,6 +5,7 @@ MemberPayments.before.insert(function (userId, doc) {
     doc.name = user.profile.firstName;
 
     let memberProfile = MyProfiles.direct.findOne({memberId: user._id});
+    Meteor.call('addMemberPaymentNotification',memberProfile._id,doc.paymentType);
 
 console.log( "BEFORE ADDING"+memberProfile);
     console.log(memberProfile);

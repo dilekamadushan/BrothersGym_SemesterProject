@@ -1,0 +1,24 @@
+<template name="Notification">
+    <article class="recipe {{#if inMenu}} in-menu{{/if}}">
+        <h3>{{_id}}</h3>
+        {{type}}
+        {{name}}
+
+        <h4></h4>
+
+
+
+            .<p>{{desc}}</p>
+
+            <a href="/recipe/{{_id}}">View Details</a>
+
+            {{#if inMenu}}
+                <button class="btn-deny toggle-menu">Remove From Menu</button>
+            {{else}}
+                <button class="btn-primary toggle-menu">Add To Menu</button>
+            {{/if}}
+        <i class="fa fa-trash"></i>
+
+
+    </article>
+</template>

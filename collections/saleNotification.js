@@ -16,6 +16,10 @@ Meteor.methods({
     addNewMemberNotification: function(id,name){
         console.log("im in member notification")
         SaleNotifications.insert({ memberId: id,name:name,type:"New Member",author:this.userId, date:new Date()});
+    },
+    addMemberPaymentNotification: function(id,name){
+        console.log("im in notification")
+        SaleNotifications.insert({ memberId: id,type:"member Payment", member: name,author:this.userId,date:new Date() });
     }
 
 });

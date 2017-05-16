@@ -3,7 +3,13 @@
         {{> NewMemberPayment}}
     {{else}}
 
-        <button class="new-recipe">New MemberPayment</button>
+
+        {{#if isInRole 'admin'}}
+            <button class="new-recipe">New MemberPayment</button>
+        {{/if}}
+        {{#if isInRole 'officer'}}
+            <button class="new-recipe">New MemberPayment</button>
+        {{/if}}
 
     {{/if}}
 

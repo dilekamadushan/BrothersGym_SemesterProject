@@ -69,7 +69,7 @@ Template.fitnessProduct.events({
        template.selectedService.set( service );
         template.processing.set( true );
 
-        Meteor.call('addNotification', this._id,this.name,this.price);
+        Meteor.call('addSaleNotification', this._id,this.name,this.price);
 
         template.checkout.open({
             name: 'Ghostbusting Service',

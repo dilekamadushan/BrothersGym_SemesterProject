@@ -34,13 +34,7 @@ mySchema = new SimpleSchema({
 })
 
 Meteor.methods({
-    toggleSaleItem: function(id, currentState){
-        MyProfiles.update(id,{
-            $set:{
-                inMenu: !currentState
-            }
-        });
-    },
+
     deleteSaleItem: function(id){
         SaleItems.remove(id);
     },

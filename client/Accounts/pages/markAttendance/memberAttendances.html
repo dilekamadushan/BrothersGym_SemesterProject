@@ -1,4 +1,14 @@
 <template name="memberAttendances">
+
+
+    {{#if $.Session.get 'newMemberAttendance'}}
+        {{> newMemberAttendance}}
+    {{else}}
+
+        <button class="new-memberAttendance">New Member Attendance</button>
+
+    {{/if}}
+
     <section class="recipes">
         {{#if Template.subscriptionsReady}}
             {{#each memberAttendanceRecords}}

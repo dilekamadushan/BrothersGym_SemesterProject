@@ -4,7 +4,9 @@
         {{> NewMemberFeedback}}
     {{else}}
 
-        <button class="new-memberFeedback">New Member Feedback</button>
+        {{#if isInRole 'member'}}
+            <button class="new-memberFeedback">New MemberFeedback</button>
+        {{/if}}
 
     {{/if}}
 

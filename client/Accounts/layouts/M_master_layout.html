@@ -4,16 +4,20 @@
 
     <div class="wrapper">
 
+
         {{> nav_bar }}
+
         {{#if isInRole 'admin'}}
-        {{> admin_side_bar }}
-           {{/if}}
+            {{> admin_side_bar }}
+        {{/if}}
         {{#if isInRole 'trainer'}}
-        {{> trainer_side_bar }}
+            {{> trainer_side_bar }}
         {{/if}}
         {{#if isInRole 'officer'}}
-        {{> officer_side_bar }}
+            {{> officer_side_bar }}
         {{/if}}
+
+
 
 
 

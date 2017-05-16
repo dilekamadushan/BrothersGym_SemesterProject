@@ -1,9 +1,10 @@
 <template name="MemberSideNav">
     <div class="memberside-nav">
         <ul>
+            <li><a href="/viewMemberProfile/{{currentUser._id}}"><i class="fa fa-list"></i> View My Profile</a></li>
             <li><a href="/viewMemberProfile"><i class="fa fa-list"></i> Member Profiles</a></li>
-            <li><a href="/trainer/viewSchedule"><i class="fa fa-map-o"></i> Schedule</a></li>
-            <li><a href="/shopping-list"><i class="fa fa-shopping-cart"></i> Shopping List</a></li>
+            <li><a href="viewSchedule"><i class="fa fa-map-o"></i> Schedule</a></li>
+            <li><a href="/services"><i class="fa fa-shopping-cart"></i> Shopping</a></li>
             <li><a href="/fitnessClasses"><i class="fa fa-calendar"></i> Classes</a></li>
             <li><a href="/chat"><i class="fa fa-users"></i> Chat</a></li>
         </ul>

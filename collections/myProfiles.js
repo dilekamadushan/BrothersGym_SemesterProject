@@ -58,6 +58,57 @@ MyProfileSchema = new SimpleSchema({
             ,
         }
             },
+    enrolledClasses: {
+        type: Array,
+        optional: true
+    },
+    'enrolledClasses.$': {
+        type: Object
+    },'enrolledClasses.$.class': {
+        type: String,
+        //allowedValues: ["Dumbbell Squat","Bar Squat","Bench Press","Dumbell Bench Press","Bent Arm Pull","Cross Over","Dumbell Flies","Inclined Press","Tricep Extension","Tricep PushDown","Lying Down Tricep"],
+        autoform: {
+            afFieldInput: {
+                //firstOption: "(Select a State)"
+                options: function () {
+
+                    let options = [];
+                    FitnessClasses.find({}).forEach(function (element) {
+                        options.push({
+                            label: element.name , value: element._id
+
+                        })
+                    });
+                    return options;
+
+
+                }
+            }
+        }
+    },
+    'enrolledClasses.$.trainer': {
+        type: String,
+        //allowedValues: ["Dumbbell Squat","Bar Squat","Bench Press","Dumbell Bench Press","Bent Arm Pull","Cross Over","Dumbell Flies","Inclined Press","Tricep Extension","Tricep PushDown","Lying Down Tricep"],
+        autoform: {
+            afFieldInput: {
+                //firstOption: "(Select a State)"
+                options: function () {
+
+
+                        let options = [];
+                        Meteor.users.find({roles:"trainer"}).forEach(function (element) {
+                            options.push({
+                                label: element.profile.firstName, value: element._id
+                            })
+                        });
+                        return options;
+
+
+
+                }
+            }
+        }
+    },
     picture: {
         type: String,
         label: "Picture Link",
@@ -68,9 +119,29 @@ MyProfileSchema = new SimpleSchema({
         },
 
        },
+    height: {
+        type: Number,
+        label: "height",
+        optional:true,
+        autoform: {
+
+            placeholder: "Enter height in cm"
+        },
+
+    },
+    weight: {
+        type: Number,
+        label: "weight",
+        optional:true,
+        autoform: {
+
+            placeholder: "Enter weight in kg"
+        },
+
+    },
 
 
-    inMenu:{
+    shared:{
         type: Boolean,
         defaultValue: false,
         optional: true,
@@ -120,7 +191,7 @@ Meteor.methods({
     toggleMenuItemMyProfile: function(id, currentState){
         MyProfiles.update(id,{
             $set:{
-                inMenu: !currentState
+                shared: !currentState
             }
         });
     },

@@ -1,0 +1,61 @@
+<template name="report_summary">
+
+    <section class="content-header">
+        <h1>
+            Reports
+            <small>Summary Report</small>
+        </h1>
+        <ol class="breadcrumb">
+            <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li class="active">Reports</li>
+        </ol>
+    </section>
+
+
+    <section class="content">
+
+        <div class="container">
+
+            <div class="row">
+
+                <h4>Reporting time period:</h4>
+
+                <div class="col-lg-8 col-md-12 col-xs-12">
+                    <form role="form" class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" style="padding-bottom: 20px">
+                                    <div class="input-group input-group-md date">
+                                        <div class="input-group-addon">
+                                            Begin
+                                        </div>
+                                        <input id="inputBegin" name="inputBegin" type="date" class="form-control"
+                                               placeholder="Enter beginning date" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" style="padding-bottom: 20px">
+                                    <div class="input-group input-group-md date">
+                                        <div class="input-group-addon">
+                                            End
+                                        </div>
+                                        <input id="inputEnd" name="inputEnd" type="date" class="form-control"
+                                               placeholder="Enter ending date" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                    <button id="submit" type="submit"
+                                            class="btn btn-primary btn-block">Get Report
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</template>

@@ -4,7 +4,13 @@
         {{> NewSchedule}}
     {{else}}
 
-        <button class="new-recipe">New Schedule</button>
+        {{#if isInRole 'admin'}}
+            <button class="new-recipe">New Schedule</button>
+        {{/if}}
+
+        {{#if isInRole 'officer'}}
+            <button class="new-recipe">New Schedule</button>
+        {{/if}}
 
     {{/if}}
 

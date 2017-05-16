@@ -8,6 +8,7 @@ Template.MyProfiles.onCreated(function () {
    self.autorun(function () {
       self.subscribe('myProfiles');
        self.subscribe('memberAttendances');
+       self.subscribe('FitnessClasses');
    });
 });
 

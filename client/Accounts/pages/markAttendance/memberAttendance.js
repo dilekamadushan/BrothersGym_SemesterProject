@@ -23,7 +23,7 @@ Template.MemberAttendance.helpers({
 Template.MemberAttendance.events({
     'click .toggle-menu': function(){
         console.log('click');
-        Meteor.call('toggleMenuItemMyProfile', this._id, this.inMenu);
+        Meteor.call('toggleMemberAttendance', this._id, this.inMenu);
     },
     'click .fa-trash' :function() {
         Meteor.call('deleteMemberAttendance', this._id);
@@ -32,6 +32,6 @@ Template.MemberAttendance.events({
     'click .fa-pencil' :function(event, template) {
         //Session.set('editMode', !Session.get('editMode'));
         template.editMode.set( !template.editMode.get());
-        Session.set('newMyProfile',false);
+        Session.set('newMemberAttendance',false);
     }
 });

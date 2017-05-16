@@ -17,7 +17,8 @@
 
             <!--Show spinner/loading when template subscriptions is not ready yet-->
             {{#unless Template.subscriptionsReady}}
-                {{> spinner}}
+
+              {{> LoadingPage}}
             {{/unless}}
 
         </div><!--/.direct-chat-messages-->

@@ -83,29 +83,69 @@
 
             <!-- Sidebar Menu -->
             <ul class="sidebar-menu">
-                <li><a href="/admin/manageUsers"><i class="fa fa-link"></i> <span class="">Manage Users</span></a></li>
-                <li><a href="/addMember"><i class="fa fa-link "></i> <span class="addMember">Add Member</span></a></li>
-                <li><a href="/viewMemberProfile"><i class="fa fa-link "></i> <span class="addMemberProfile">View Member Profile</span></a></li>
-                <li><a href="/trainer/newSchedule"><i class="fa fa-link "></i> <span class="addMemberProfile">New Schedule</span></a></li>
-                <li><a href="/trainer/viewSchedule"><i class="fa fa-link "></i> <span class="addMemberProfile">View Schedule</span></a></li>
-                <li><a href="/chat"><i class="fa fa-link "></i> <span class="addMemberProfile">Chat</span></a></li>
-                <li><a href="/memberPayments"><i class="fa fa-link "></i> <span class="addMemberProfile">memberPayments</span></a></li>
-                <li><a href="/admin/test"><i class="fa fa-link "></i> <span class="addMemberProfile">test</span></a></li>
 
-
-
-
-                <li class="treeview">
-                    <a href="#"><i class="fa fa-link"></i> <span>Multilevel</span>
-                        <span class="pull-right-container">
+                {{#if isInRole 'admin'}}
+                    <li><a href="/admin/manageUsers"><i class="fa fa-link"></i> <span class="">Manage Users</span></a></li>
+                    <li><a href="/addMember"><i class="fa fa-link "></i> <span class="addMember">Add Member</span></a></li>
+                    <li><a href="/viewMemberProfile"><i class="fa fa-link "></i> <span class="addMemberProfile">View Member Profile</span></a></li>
+                    <li><a href="/trainer/newSchedule"><i class="fa fa-link "></i> <span class="addMemberProfile">New Schedule</span></a></li>
+                    <li><a href="/trainer/viewSchedule"><i class="fa fa-link "></i> <span class="addMemberProfile">View Schedule</span></a></li>
+                    <li><a href="/fitnessClasses"><i class="fa fa-link "></i> <span class="">FitnessClasses</span></a></li>
+                    <li><a href="/memberPayments"><i class="fa fa-link "></i> <span class="addMemberProfile">memberPayments</span></a></li>
+                    <li><a href="/admin/test"><i class="fa fa-link "></i> <span class="addMemberProfile">test</span></a></li>
+                    <li><a href="/memberFeedback"><i class="fa fa-link "></i> <span class="">Member Feedbacks</span></a></li>
+                    <li><a href="/saleItems"><i class="fa fa-link "></i> <span class="">Sale Items</span></a></li>
+                    <li><a href="/reports"><i class="fa fa-link "></i> <span class="">Records</span></a></li>
+                    <li><a href="/services"><i class="fa fa-link "></i> <span class="">Products</span></a></li>
+                    <li><a href=" /markAttendance"><i class="fa fa-link "></i> <span class="">Mark Attendance</span></a></li>
+                    <li><a href="/viewAttendance"><i class="fa fa-link "></i> <span class="">View Attendance</span></a></li>
+                    <li><a href="/chat"><i class="fa fa-link "></i> <span class="addMemberProfile">Chat </span></a></li>
+                    <li><a href="/group_chat"><i class="fa fa-link "></i> <span class="addMemberProfile">Group Chat</span></a></li>
+                    <li class="treeview">
+                        <a href="#"><i class="fa fa-link"></i> <span>Multilevel</span>
+                            <span class="pull-right-container">
                             <i class="fa fa-angle-left pull-right"></i>
 							</span>
-                    </a>
-                    <ul class="treeview-menu">
-                        <li><a href="#">Link in level 2</a></li>
-                        <li><a href="#">Link in level 2</a></li>
-                    </ul>
-                </li>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li><a href="#">Link in level 2</a></li>
+                            <li><a href="#">Link in level 2</a></li>
+                        </ul>
+                    </li>
+
+                {{/if}}
+    {{#if isInRole 'officer'}}
+
+        <li><a href="/viewMemberProfile"><i class="fa fa-link "></i> <span class="addMemberProfile">View Member Profile</span></a></li>
+        <li><a href="/trainer/newSchedule"><i class="fa fa-link "></i> <span class="addMemberProfile">New Schedule</span></a></li>
+        <li><a href="/trainer/viewSchedule"><i class="fa fa-link "></i> <span class="addMemberProfile">View Schedule</span></a></li>
+        <li><a href="/officer/markAttendance"><i class="fa fa-link "></i> <span class="">Mark Attendance</span></a></li>
+        <li><a href="/fitnessClasses"><i class="fa fa-link "></i> <span class="">FitnessClasses</span></a></li>
+        <li><a href="/viewAttendance"><i class="fa fa-link "></i> <span class="">View Attendance</span></a></li>
+        <li><a href="/chat"><i class="fa fa-link "></i> <span class="">Chat</span></a></li>
+        <li><a href="/admin/test"><i class="fa fa-link "></i> <span class="addMemberProfile">test</span></a></li>
+
+        <li><a href="/memberPayments"><i class="fa fa-link "></i> <span class="addMemberProfile">memberPayments</span></a></li>
+
+
+    {{/if}}
+
+
+    {{#if isInRole 'trainer'}}
+        <li><a href="/viewMemberProfile"><i class="fa fa-link "></i> <span class="">View Member Profile</span></a></li>
+        <li><a href="/trainer/newSchedule"><i class="fa fa-link "></i> <span class="">New Schedule</span></a></li>
+        <li><a href="/trainer/viewSchedule"><i class="fa fa-link "></i> <span class="">View Schedule</span></a></li>
+        <li><a href="/chat"><i class="fa fa-link "></i> <span class="">Chat</span></a></li>
+        <li><a href="/fitnessClasses"><i class="fa fa-link "></i> <span class="">FitnessClasses</span></a></li>
+        <li><a href="/admin/test"><i class="fa fa-link "></i> <span class="addMemberProfile">test</span></a></li>
+
+
+
+
+    {{/if}}
+
+
+
             </ul>
             <!-- /.sidebar-menu -->
         </section>

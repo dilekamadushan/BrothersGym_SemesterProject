@@ -54,7 +54,7 @@ aldeed:autoform-select2
 matb33:collection-hooks
 momentjs:moment
 
-practicalmeteor:mocha
+
 dburles:factory
 xolvio:cleaner
 
@@ -72,3 +72,5 @@ cfs:autoform
 daoli:highcharts
 anychart:anychart
 rafaelhdr:google-charts
+practicalmeteor:mocha
+reactive-dict

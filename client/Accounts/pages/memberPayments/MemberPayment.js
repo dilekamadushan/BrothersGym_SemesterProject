@@ -9,6 +9,7 @@ Template.MemberPayment.onCreated(function(){
 
 Template.MemberPayment.helpers({
     updateMemberPaymentId:function (){
+        console.log("autosaveId"+this._id);
         return this._id;
     },
 

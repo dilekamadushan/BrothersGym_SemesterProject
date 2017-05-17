@@ -1,0 +1,31 @@
+<template name="MemberOwnView">
+
+    <article class="recipe {{#if calculateExpiry}} in-expiry{{/if}}">
+
+        <h3>{{profile.name}}</h3>
+
+        <img src="{{profile.picture}}" alt="Smiley face" style="width:304px;height:228px;">
+
+        {{#if editMorde}}
+
+            {{> quickForm collection="MyProfiles" id=updateMyProfileOwnId type="update" doc=this autosave=true}}
+        {{else}}
+
+
+            <p>{{desc}}</p>
+
+            {{#if inMenu}}
+                <button class="btn-deny toggle-menu">Do Not Share</button>
+            {{else}}
+                <button class="btn-primary toggle-menu">Share</button>
+            {{/if}}
+        {{/if}}
+
+
+
+        <i class="fa fa-pencil"></i>
+        <i class="fa fa-trash"></i>
+
+
+    </article>
+</template>

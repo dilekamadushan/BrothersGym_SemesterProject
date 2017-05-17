@@ -194,7 +194,12 @@ Meteor.publish('myProfileSingle', function(index){
 
     return MyProfiles.find({_id: index});
 });
+Meteor.publish('myOwnView', function(index){
 
+
+       return MyProfiles.find({memberId: index});
+
+});
 Meteor.publish('memberPayments',function () {
 
      if(Roles.userIsInRole(this.userId,'member')){

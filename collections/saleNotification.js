@@ -11,7 +11,7 @@ SaleNotifications.allow({
 Meteor.methods({
     addSaleNotification: function(id,name,price){
         console.log("im in notification")
-        SaleNotifications.insert({ saleItemId: id,type:"Sales", payment: name,name: price,buyerId:this.userId});
+        SaleNotifications.insert({ saleItemId: id,type:"Sales", payment: name,name: price,buyerId:this.userId, date:new Date()});
     },
     addNewMemberNotification: function(id,name){
         console.log("im in member notification")

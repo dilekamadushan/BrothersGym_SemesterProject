@@ -22,6 +22,10 @@ mySchema = new SimpleSchema({
         // }
 
     },
+    picture:{
+        type: String,
+        label:"Picture Link"
+    },
     fileId: {
         type: String,
         autoform: {

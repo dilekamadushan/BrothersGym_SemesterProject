@@ -10,6 +10,7 @@ Template.Notifications.onCreated(function () {
 
 Template.Notifications.helpers({
     notifications: ()=>{
+        return SaleNotifications.find({}, {sort: {date: -1}});
         return SaleNotifications.find({});
     }
 });

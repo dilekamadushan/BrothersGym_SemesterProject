@@ -11,6 +11,7 @@ Template.SaleItems.onCreated(function () {
 Template.SaleItems.helpers({
     saleItems: ()=>{
         return SaleItems.find({});
+        //return SaleItems.find({}, {sort: {createdAt: -1}});
     }
 });
 

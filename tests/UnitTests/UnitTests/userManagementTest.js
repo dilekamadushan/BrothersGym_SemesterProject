@@ -4,6 +4,9 @@ import { Template } from 'meteor/templating';
 import { Blaze } from 'meteor/blaze';
 import { Tracker } from 'meteor/tracker';
 
+
+// this method tests the update of expiry date of member profile
+
 describe('ExpiryDateCalculation', function () {
     it('method updates the ExpiryDate', function () {
         beforeEach(function () {
@@ -21,6 +24,7 @@ describe('ExpiryDateCalculation', function () {
     })
 });
 
+// this method tests toggle assignItem method
 describe('AssignSchedule', function () {
     it('method assigns nmember schedules', function () {
         beforeEach(function () {
@@ -30,6 +34,8 @@ describe('AssignSchedule', function () {
     })
 });
 
+
+//this method tests wether the member attendance is updated correctly.
 describe('ToggleMemberPrescence', function () {
     it('method marks member Prescence', function () {
         beforeEach(function () {
